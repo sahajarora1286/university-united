@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Events, NavController, NavParams } from 'ionic-angular';
+import { Events, NavController, NavParams, Content } from 'ionic-angular';
 import Parse from 'parse';
 import { Http, Headers, Request, RequestOptions, RequestMethod} from '@angular/http';
 import 'rxjs/add/operator/map'
@@ -16,12 +16,15 @@ import 'rxjs/add/operator/map'
  
 })
 export class ChatPage {
+
+  @ViewChild(Content) content: Content;
+
   messages: any;
   
   text: string;
   currentUser; toUser; query;
   chat;
-  content;
+  //content;
   chatQuery;
   subscription;
 
@@ -138,6 +141,7 @@ export class ChatPage {
   }
 
   scrollList(me){
+    //me.content.scrollToBotom();
     me.autoScroll();
   }
 
@@ -148,7 +152,8 @@ export class ChatPage {
       
         itemList.scrollTop = itemList.scrollHeight;
         
-    }, 15);
+        
+    }, 20);
 
     // var itemList;
     //     itemList = document.getElementById("chat-autoscroll");
@@ -225,7 +230,7 @@ export class ChatPage {
                   me.chat.save({
                   success: function(result){
                     me.sendPush(message, me);
-                    me.scrollList(me);
+                    //me.scrollList(me);
                      console.log("Message added to chat");
                       console.log(result);
                     }, error: function(result, error){
@@ -252,12 +257,20 @@ export class ChatPage {
 
   sendPush(message, me){
     //me.events.publish("toast:event", {message: "About to query for tokens ", timer: 2000, position: 'top'});
+    var deviceTokens = [];
     var query = new Parse.Query("DeviceToken");
     query.equalTo("user", me.toUser);
     query.include("user");
-    query.first({
+    return query.each(function(result){
+      deviceTokens.push(result.get('token'));
+      },{
       success: function(result){
-        //me.events.publish("toast:event", {message: "Sending to token of " + result.get("user").get("name"), timer: 5000, position: 'top'});
+        
+      }, error: function(error){
+
+      }
+    }).then(function(result){
+      //me.events.publish("toast:event", {message: "Sending to token of " + result.get("user").get("name"), timer: 5000, position: 'top'});
         var apiKey = "AAAARH22jPU:APA91bECgqTWd41P0Em0lbAXHr3G_MhJ7HliBp_AO3OAcpbbsSd9yIiYksVfsDbABEyKExz3QsJy6zfkIJ8wj3SHUm-KP0ZqdXoEhxmXn0WbQ_wLn3gnrSfjlZRSTQj_QG0uMchKOZo-";
     var url= "https://fcm.googleapis.com/fcm/send";
     // var headers = {
@@ -272,7 +285,7 @@ export class ChatPage {
   
     let options = new RequestOptions({headers: headers});
     //me.events.publish("toast:event", {message: "About to make http post req ", timer: 3000, position: 'top'});
-    me.http.post(url, {to: result.get("token"), notification: {title: me.currentUser.get("name"), body: message.get("text"), sound: "default"
+    me.http.post(url, {registration_ids: deviceTokens, notification: {title: me.currentUser.get("name"), body: message.get("text"), sound: "default"
                 }, data: {fromName: me.currentUser.get("name"), fromId: me.currentUser.id + "", text: message.get("text")}}, options).map(res => res.json()).subscribe(data => {
       console.log(data);
         //me.events.publish("toast:event", {message: "Notification sent: " + data.data.success, timer: 5000, position: 'bottom'});
@@ -280,9 +293,8 @@ export class ChatPage {
       console.log(error);
       //me.events.publish("toast:event", {message: error.message, timer: 5000, position: 'bottom'});
     });
-      }, error: function(error){
-
-      }
+    }, function(error){
+      
     });
 
     

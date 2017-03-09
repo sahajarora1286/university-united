@@ -206,10 +206,11 @@ export class BrowsePage {
 
         } else {
           //update the token
-          var deviceToken = results[0];
-          deviceToken.set("token", token);
-          deviceToken.set("user", me.currentUser);
-
+          for (var i = 0; i<results.length; i++){
+            var deviceToken = results[0];
+            deviceToken.set("token", token);
+            deviceToken.set("user", me.currentUser);
+            
           deviceToken.save({
             success: function(result){
               console.log("Token updated");
@@ -218,6 +219,8 @@ export class BrowsePage {
               //me.events.publish('toast:event', {message: "Couldnt update token to server: " + error.message, timer: 5000, position: 'top'});
             }
           });
+          }
+          
         }
       }
     });
