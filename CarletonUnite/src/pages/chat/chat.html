@@ -1,0 +1,58 @@
+
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Chat</ion-title>
+
+     <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+<!--<ion-icon name="more"></ion-icon>-->
+
+
+</ion-header>
+
+
+<ion-content padding >
+<div class ="content-scroll" id="chat-autoscroll" style="height: 100%; overflow: scroll">
+
+  <ion-list >
+
+    <!--<ion-item *ngFor="let message of messages">
+      <h2>{{message?.get('from').get('name')}}</h2>
+      <label>{{message?.get('text')}}</label>
+    </ion-item>-->
+
+    <ion-item *ngFor="let message of messages">
+        <ion-avatar style="margin:auto; text-align: center" 
+        item-left style="width:15%" >
+          <img style="text-align: center" item-left src="assets/images/person.png" />
+        </ion-avatar>
+        <div style="width:85%">
+        <h2 style="color: red">{{message?.get('from').get('name')}}</h2>
+        <h3 style="word-wrap:break-word; 
+        overflow:visible; white-space:normal"> {{message?.get('text')}} </h3>
+        </div>
+      </ion-item>
+  </ion-list>
+
+</div>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-item>
+    <ion-input [(ngModel)]="text" 
+    style="color:red; width:87%" type="text" placeholder="Enter message here"></ion-input>
+
+     <button item-right ion-button style="padding:20px" item-height="100%" (click)="sendMessage()" icon-only color="danger" >
+          <ion-icon name="send"></ion-icon>
+    </button>
+
+  </ion-item>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,6 @@
+{"error":{"code":107,"message":"You cannot use [object Object],[object Object] as a query parameter."},"level":"error","message":"Error generating response. ParseError {\n  code: 107,\n  message: 'You cannot use [object Object],[object Object] as a query parameter.' }","timestamp":"2017-03-05T00:35:13.721Z"}
+{"code":107,"message":"You cannot use [object Object],[object Object] as a query parameter.","level":"error","timestamp":"2017-03-05T00:35:13.729Z"}
+{"error":{"code":107,"message":"You cannot use [object Object],[object Object] as a query parameter."},"level":"error","message":"Error generating response. ParseError {\n  code: 107,\n  message: 'You cannot use [object Object],[object Object] as a query parameter.' }","timestamp":"2017-03-05T10:51:08.423Z"}
+{"code":107,"message":"You cannot use [object Object],[object Object] as a query parameter.","level":"error","timestamp":"2017-03-05T10:51:08.427Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-03-05T22:18:10.300Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-03-05T22:18:10.302Z"}

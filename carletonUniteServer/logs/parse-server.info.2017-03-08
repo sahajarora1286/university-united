@@ -1,0 +1,339 @@
+{"level":"info","message":"Client disconnect: 1","timestamp":"2017-03-08T03:25:38.455Z"}
+{"level":"info","message":"Client disconnect: 2","timestamp":"2017-03-08T03:25:41.609Z"}
+{"level":"info","message":"Create new client: 3","timestamp":"2017-03-08T03:26:56.106Z"}
+{"level":"info","message":"Create new client: 4","timestamp":"2017-03-08T03:35:08.378Z"}
+{"level":"info","message":"Client disconnect: 3","timestamp":"2017-03-08T03:41:37.067Z"}
+{"level":"info","message":"Client disconnect: 4","timestamp":"2017-03-08T03:42:49.944Z"}
+{"level":"info","message":"Create new client: 5","timestamp":"2017-03-08T03:43:14.631Z"}
+{"level":"info","message":"Client disconnect: 5","timestamp":"2017-03-08T03:49:05.542Z"}
+{"level":"info","message":"Create new client: 6","timestamp":"2017-03-08T03:49:34.199Z"}
+{"level":"info","message":"Client disconnect: 6","timestamp":"2017-03-08T04:16:34.637Z"}
+{"level":"info","message":"Create new client: 7","timestamp":"2017-03-08T07:34:54.633Z"}
+{"level":"info","message":"Create new client: 8","timestamp":"2017-03-08T07:35:20.277Z"}
+{"level":"info","message":"Client disconnect: 8","timestamp":"2017-03-08T07:42:28.279Z"}
+{"level":"info","message":"Create new client: 9","timestamp":"2017-03-08T07:42:35.796Z"}
+{"level":"info","message":"Client disconnect: 9","timestamp":"2017-03-08T07:48:19.532Z"}
+{"level":"info","message":"Create new client: 10","timestamp":"2017-03-08T08:11:41.439Z"}
+{"level":"info","message":"Client disconnect: 10","timestamp":"2017-03-08T08:16:39.788Z"}
+{"level":"info","message":"Create new client: 11","timestamp":"2017-03-08T08:16:54.504Z"}
+{"level":"info","message":"Client disconnect: 11","timestamp":"2017-03-08T08:18:22.085Z"}
+{"level":"info","message":"Create new client: 12","timestamp":"2017-03-08T08:18:36.987Z"}
+{"level":"info","message":"Client disconnect: 7","timestamp":"2017-03-08T08:18:55.328Z"}
+{"level":"info","message":"Client disconnect: 12","timestamp":"2017-03-08T08:19:36.733Z"}
+{"level":"info","message":"Create new client: 13","timestamp":"2017-03-08T08:20:54.560Z"}
+{"level":"info","message":"Client disconnect: 13","timestamp":"2017-03-08T08:22:04.842Z"}
+{"level":"info","message":"Create new client: 14","timestamp":"2017-03-08T08:22:18.926Z"}
+{"level":"info","message":"Client disconnect: 14","timestamp":"2017-03-08T08:22:40.808Z"}
+{"level":"info","message":"Create new client: 15","timestamp":"2017-03-08T08:22:50.255Z"}
+{"level":"info","message":"Client disconnect: 15","timestamp":"2017-03-08T08:23:52.447Z"}
+{"level":"info","message":"Create new client: 16","timestamp":"2017-03-08T08:29:17.533Z"}
+{"level":"info","message":"Client disconnect: 16","timestamp":"2017-03-08T08:29:32.178Z"}
+{"level":"info","message":"Create new client: 17","timestamp":"2017-03-08T08:31:21.712Z"}
+{"level":"info","message":"Client disconnect: 17","timestamp":"2017-03-08T08:32:22.185Z"}
+{"level":"info","message":"Create new client: 18","timestamp":"2017-03-08T08:32:28.162Z"}
+{"level":"info","message":"Create new client: 19","timestamp":"2017-03-08T08:33:55.431Z"}
+{"level":"info","message":"Client disconnect: 18","timestamp":"2017-03-08T08:37:14.490Z"}
+{"level":"info","message":"Create new client: 20","timestamp":"2017-03-08T08:37:18.070Z"}
+{"level":"info","message":"Client disconnect: 19","timestamp":"2017-03-08T08:42:12.506Z"}
+{"level":"info","message":"Client disconnect: 20","timestamp":"2017-03-08T08:43:05.083Z"}
+{"level":"info","message":"Create new client: 21","timestamp":"2017-03-08T08:58:41.638Z"}
+{"level":"info","message":"Client disconnect: 21","timestamp":"2017-03-08T08:59:08.005Z"}
+{"level":"info","message":"Create new client: 22","timestamp":"2017-03-08T08:59:11.025Z"}
+{"level":"info","message":"Client disconnect: 22","timestamp":"2017-03-08T09:04:38.744Z"}
+{"level":"info","message":"Create new client: 23","timestamp":"2017-03-08T09:37:29.224Z"}
+{"level":"info","message":"Client disconnect: 23","timestamp":"2017-03-08T09:45:04.280Z"}
+{"level":"info","message":"Create new client: 24","timestamp":"2017-03-08T09:45:18.982Z"}
+{"level":"info","message":"Client disconnect: 24","timestamp":"2017-03-08T09:45:25.975Z"}
+{"level":"info","message":"Create new client: 25","timestamp":"2017-03-08T09:45:40.892Z"}
+{"error":{"code":255,"message":"Class DeviceToken is not empty, contains 3 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class DeviceToken is not empty, contains 3 objects, cannot drop schema.' }","timestamp":"2017-03-08T09:46:50.258Z"}
+{"code":255,"message":"Class DeviceToken is not empty, contains 3 objects, cannot drop schema.","level":"error","timestamp":"2017-03-08T09:46:50.264Z"}
+{"error":{"code":255,"message":"Class DeviceToken is not empty, contains 3 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class DeviceToken is not empty, contains 3 objects, cannot drop schema.' }","timestamp":"2017-03-08T09:46:54.514Z"}
+{"code":255,"message":"Class DeviceToken is not empty, contains 3 objects, cannot drop schema.","level":"error","timestamp":"2017-03-08T09:46:54.515Z"}
+{"level":"info","message":"Client disconnect: 25","timestamp":"2017-03-08T09:47:14.985Z"}
+{"level":"info","message":"Create new client: 26","timestamp":"2017-03-08T09:47:27.562Z"}
+{"level":"info","message":"Client disconnect: 26","timestamp":"2017-03-08T09:56:02.520Z"}
+{"level":"info","message":"Create new client: 27","timestamp":"2017-03-08T09:56:16.892Z"}
+{"level":"info","message":"Client disconnect: 27","timestamp":"2017-03-08T09:57:47.038Z"}
+{"level":"info","message":"Create new client: 28","timestamp":"2017-03-08T09:58:01.557Z"}
+{"level":"info","message":"Client disconnect: 28","timestamp":"2017-03-08T09:58:28.444Z"}
+{"level":"info","message":"Create new client: 29","timestamp":"2017-03-08T09:58:45.482Z"}
+{"level":"info","message":"Client disconnect: 29","timestamp":"2017-03-08T10:02:48.250Z"}
+{"level":"info","message":"Create new client: 30","timestamp":"2017-03-08T10:03:02.677Z"}
+{"level":"info","message":"Client disconnect: 30","timestamp":"2017-03-08T10:03:14.721Z"}
+{"level":"info","message":"Create new client: 31","timestamp":"2017-03-08T10:07:36.146Z"}
+{"level":"info","message":"Client disconnect: 31","timestamp":"2017-03-08T10:32:59.573Z"}
+{"level":"info","message":"Create new client: 32","timestamp":"2017-03-08T10:33:14.773Z"}
+{"level":"info","message":"Client disconnect: 32","timestamp":"2017-03-08T10:34:46.448Z"}
+{"level":"info","message":"Create new client: 33","timestamp":"2017-03-08T10:35:00.625Z"}
+{"level":"info","message":"Client disconnect: 33","timestamp":"2017-03-08T10:43:17.900Z"}
+{"level":"info","message":"Create new client: 34","timestamp":"2017-03-08T10:43:36.361Z"}
+{"level":"info","message":"Client disconnect: 34","timestamp":"2017-03-08T10:50:53.179Z"}
+{"level":"info","message":"Create new client: 35","timestamp":"2017-03-08T10:51:09.169Z"}
+{"level":"info","message":"Create new client: 36","timestamp":"2017-03-08T10:53:30.189Z"}
+{"level":"info","message":"Client disconnect: 36","timestamp":"2017-03-08T10:54:07.161Z"}
+{"level":"info","message":"Create new client: 37","timestamp":"2017-03-08T10:54:15.216Z"}
+{"level":"info","message":"Client disconnect: 35","timestamp":"2017-03-08T10:58:46.255Z"}
+{"level":"info","message":"Client disconnect: 37","timestamp":"2017-03-08T10:58:46.420Z"}
+{"level":"info","message":"Create new client: 38","timestamp":"2017-03-08T10:58:51.877Z"}
+{"level":"info","message":"Create new client: 39","timestamp":"2017-03-08T10:59:01.055Z"}
+{"level":"info","message":"Client disconnect: 39","timestamp":"2017-03-08T11:02:04.632Z"}
+{"level":"info","message":"Client disconnect: 38","timestamp":"2017-03-08T11:02:04.672Z"}
+{"level":"info","message":"Create new client: 40","timestamp":"2017-03-08T11:02:09.225Z"}
+{"level":"info","message":"Create new client: 41","timestamp":"2017-03-08T11:02:19.456Z"}
+{"level":"info","message":"Client disconnect: 41","timestamp":"2017-03-08T11:03:31.535Z"}
+{"level":"info","message":"Client disconnect: 40","timestamp":"2017-03-08T11:03:31.581Z"}
+{"level":"info","message":"Create new client: 42","timestamp":"2017-03-08T11:03:37.081Z"}
+{"level":"info","message":"Create new client: 43","timestamp":"2017-03-08T11:03:46.407Z"}
+{"level":"info","message":"Client disconnect: 43","timestamp":"2017-03-08T11:07:08.236Z"}
+{"level":"info","message":"Client disconnect: 42","timestamp":"2017-03-08T11:07:08.307Z"}
+{"level":"info","message":"Create new client: 44","timestamp":"2017-03-08T11:07:12.201Z"}
+{"level":"info","message":"Client disconnect: 44","timestamp":"2017-03-08T11:07:21.025Z"}
+{"level":"info","message":"Create new client: 45","timestamp":"2017-03-08T11:07:22.961Z"}
+{"level":"info","message":"Create new client: 46","timestamp":"2017-03-08T11:07:28.773Z"}
+{"level":"info","message":"Client disconnect: 45","timestamp":"2017-03-08T11:09:01.887Z"}
+{"level":"info","message":"Client disconnect: 46","timestamp":"2017-03-08T11:09:01.953Z"}
+{"level":"info","message":"Create new client: 47","timestamp":"2017-03-08T11:09:05.973Z"}
+{"level":"info","message":"Create new client: 48","timestamp":"2017-03-08T11:09:16.698Z"}
+{"level":"info","message":"Client disconnect: 48","timestamp":"2017-03-08T11:10:29.155Z"}
+{"level":"info","message":"Client disconnect: 47","timestamp":"2017-03-08T11:10:29.190Z"}
+{"level":"info","message":"Create new client: 49","timestamp":"2017-03-08T11:10:33.428Z"}
+{"level":"info","message":"Create new client: 50","timestamp":"2017-03-08T11:10:44.112Z"}
+{"level":"info","message":"Client disconnect: 50","timestamp":"2017-03-08T11:17:00.726Z"}
+{"level":"info","message":"Client disconnect: 49","timestamp":"2017-03-08T11:17:00.767Z"}
+{"level":"info","message":"Create new client: 51","timestamp":"2017-03-08T11:17:04.736Z"}
+{"level":"info","message":"Create new client: 52","timestamp":"2017-03-08T11:17:15.299Z"}
+{"level":"info","message":"Client disconnect: 52","timestamp":"2017-03-08T11:19:14.565Z"}
+{"level":"info","message":"Client disconnect: 51","timestamp":"2017-03-08T11:19:14.617Z"}
+{"level":"info","message":"Create new client: 53","timestamp":"2017-03-08T11:19:18.514Z"}
+{"level":"info","message":"Create new client: 54","timestamp":"2017-03-08T11:19:29.252Z"}
+{"level":"info","message":"Client disconnect: 54","timestamp":"2017-03-08T11:22:37.661Z"}
+{"level":"info","message":"Client disconnect: 53","timestamp":"2017-03-08T11:22:37.749Z"}
+{"level":"info","message":"Create new client: 55","timestamp":"2017-03-08T11:22:42.288Z"}
+{"level":"info","message":"Create new client: 56","timestamp":"2017-03-08T11:22:49.800Z"}
+{"level":"info","message":"Create new client: 57","timestamp":"2017-03-08T11:22:52.464Z"}
+{"level":"info","message":"Client disconnect: 56","timestamp":"2017-03-08T11:25:33.751Z"}
+{"level":"info","message":"Client disconnect: 57","timestamp":"2017-03-08T11:25:33.804Z"}
+{"level":"info","message":"Client disconnect: 55","timestamp":"2017-03-08T11:25:33.813Z"}
+{"level":"info","message":"Create new client: 58","timestamp":"2017-03-08T11:25:37.928Z"}
+{"level":"info","message":"Create new client: 59","timestamp":"2017-03-08T11:25:39.412Z"}
+{"level":"info","message":"Create new client: 60","timestamp":"2017-03-08T11:25:48.737Z"}
+{"level":"info","message":"Client disconnect: 59","timestamp":"2017-03-08T11:28:35.641Z"}
+{"level":"info","message":"Client disconnect: 58","timestamp":"2017-03-08T11:28:35.683Z"}
+{"level":"info","message":"Client disconnect: 60","timestamp":"2017-03-08T11:28:35.686Z"}
+{"level":"info","message":"Create new client: 61","timestamp":"2017-03-08T11:28:39.730Z"}
+{"level":"info","message":"Create new client: 62","timestamp":"2017-03-08T11:28:42.105Z"}
+{"level":"info","message":"Client disconnect: 61","timestamp":"2017-03-08T11:28:44.843Z"}
+{"level":"info","message":"Create new client: 63","timestamp":"2017-03-08T11:28:51.562Z"}
+{"level":"info","message":"Client disconnect: 62","timestamp":"2017-03-08T11:33:52.122Z"}
+{"level":"info","message":"Client disconnect: 63","timestamp":"2017-03-08T11:33:52.183Z"}
+{"level":"info","message":"Create new client: 64","timestamp":"2017-03-08T11:33:57.394Z"}
+{"level":"info","message":"Create new client: 65","timestamp":"2017-03-08T11:34:02.087Z"}
+{"level":"info","message":"Create new client: 66","timestamp":"2017-03-08T11:34:08.155Z"}
+{"level":"info","message":"Client disconnect: 64","timestamp":"2017-03-08T11:41:17.262Z"}
+{"level":"info","message":"Client disconnect: 66","timestamp":"2017-03-08T11:41:17.303Z"}
+{"level":"info","message":"Create new client: 67","timestamp":"2017-03-08T11:41:22.448Z"}
+{"level":"info","message":"Create new client: 68","timestamp":"2017-03-08T11:41:32.251Z"}
+{"level":"info","message":"Client disconnect: 67","timestamp":"2017-03-08T11:42:42.827Z"}
+{"level":"info","message":"Client disconnect: 68","timestamp":"2017-03-08T11:42:42.939Z"}
+{"level":"info","message":"Create new client: 69","timestamp":"2017-03-08T11:42:48.431Z"}
+{"level":"info","message":"Create new client: 70","timestamp":"2017-03-08T11:42:58.523Z"}
+{"level":"info","message":"Client disconnect: 69","timestamp":"2017-03-08T11:43:43.604Z"}
+{"level":"info","message":"Client disconnect: 70","timestamp":"2017-03-08T11:43:44.059Z"}
+{"level":"info","message":"Create new client: 71","timestamp":"2017-03-08T11:43:48.556Z"}
+{"level":"info","message":"Create new client: 72","timestamp":"2017-03-08T11:44:02.462Z"}
+{"level":"info","message":"Client disconnect: 71","timestamp":"2017-03-08T11:46:28.089Z"}
+{"level":"info","message":"Client disconnect: 72","timestamp":"2017-03-08T11:46:28.161Z"}
+{"level":"info","message":"Create new client: 73","timestamp":"2017-03-08T11:46:33.393Z"}
+{"level":"info","message":"Create new client: 74","timestamp":"2017-03-08T11:46:44.237Z"}
+{"level":"info","message":"Client disconnect: 74","timestamp":"2017-03-08T11:48:58.364Z"}
+{"level":"info","message":"Client disconnect: 73","timestamp":"2017-03-08T11:48:58.367Z"}
+{"level":"info","message":"Create new client: 75","timestamp":"2017-03-08T11:49:03.446Z"}
+{"level":"info","message":"Create new client: 76","timestamp":"2017-03-08T11:49:15.260Z"}
+{"level":"info","message":"Client disconnect: 75","timestamp":"2017-03-08T11:50:19.385Z"}
+{"level":"info","message":"Client disconnect: 76","timestamp":"2017-03-08T11:50:19.476Z"}
+{"level":"info","message":"Client disconnect: 65","timestamp":"2017-03-08T11:50:20.741Z"}
+{"level":"info","message":"Create new client: 77","timestamp":"2017-03-08T11:50:24.412Z"}
+{"level":"info","message":"Create new client: 78","timestamp":"2017-03-08T11:50:24.862Z"}
+{"level":"info","message":"Create new client: 79","timestamp":"2017-03-08T11:50:34.209Z"}
+{"level":"info","message":"Client disconnect: 77","timestamp":"2017-03-08T11:52:46.015Z"}
+{"level":"info","message":"Client disconnect: 79","timestamp":"2017-03-08T11:52:46.123Z"}
+{"level":"info","message":"Client disconnect: 78","timestamp":"2017-03-08T11:52:46.151Z"}
+{"level":"info","message":"Create new client: 80","timestamp":"2017-03-08T11:52:50.231Z"}
+{"level":"info","message":"Create new client: 81","timestamp":"2017-03-08T11:52:51.375Z"}
+{"level":"info","message":"Create new client: 82","timestamp":"2017-03-08T11:53:03.172Z"}
+{"level":"info","message":"Client disconnect: 80","timestamp":"2017-03-08T11:56:25.707Z"}
+{"level":"info","message":"Client disconnect: 82","timestamp":"2017-03-08T11:56:36.142Z"}
+{"level":"info","message":"Client disconnect: 81","timestamp":"2017-03-08T11:56:36.203Z"}
+{"level":"info","message":"Create new client: 83","timestamp":"2017-03-08T11:56:39.978Z"}
+{"level":"info","message":"Create new client: 84","timestamp":"2017-03-08T11:56:41.391Z"}
+{"level":"info","message":"Create new client: 85","timestamp":"2017-03-08T11:56:52.793Z"}
+{"level":"info","message":"Client disconnect: 85","timestamp":"2017-03-08T11:59:13.729Z"}
+{"level":"info","message":"Client disconnect: 83","timestamp":"2017-03-08T11:59:13.734Z"}
+{"level":"info","message":"Client disconnect: 84","timestamp":"2017-03-08T11:59:13.797Z"}
+{"level":"info","message":"Create new client: 86","timestamp":"2017-03-08T11:59:17.033Z"}
+{"level":"info","message":"Create new client: 87","timestamp":"2017-03-08T11:59:19.367Z"}
+{"level":"info","message":"Create new client: 88","timestamp":"2017-03-08T11:59:19.392Z"}
+{"level":"info","message":"Create new client: 89","timestamp":"2017-03-08T11:59:30.082Z"}
+{"level":"info","message":"Client disconnect: 88","timestamp":"2017-03-08T12:04:26.176Z"}
+{"level":"info","message":"Client disconnect: 87","timestamp":"2017-03-08T12:04:26.187Z"}
+{"level":"info","message":"Client disconnect: 89","timestamp":"2017-03-08T12:04:26.247Z"}
+{"level":"info","message":"Client disconnect: 86","timestamp":"2017-03-08T12:04:26.248Z"}
+{"level":"info","message":"Create new client: 90","timestamp":"2017-03-08T12:04:30.004Z"}
+{"level":"info","message":"Create new client: 91","timestamp":"2017-03-08T12:04:32.376Z"}
+{"level":"info","message":"Create new client: 92","timestamp":"2017-03-08T12:04:33.392Z"}
+{"level":"info","message":"Create new client: 93","timestamp":"2017-03-08T12:04:42.365Z"}
+{"level":"info","message":"Client disconnect: 92","timestamp":"2017-03-08T12:07:02.145Z"}
+{"level":"info","message":"Client disconnect: 91","timestamp":"2017-03-08T12:07:02.259Z"}
+{"level":"info","message":"Client disconnect: 90","timestamp":"2017-03-08T12:07:02.376Z"}
+{"level":"info","message":"Client disconnect: 93","timestamp":"2017-03-08T12:07:02.425Z"}
+{"level":"info","message":"Create new client: 94","timestamp":"2017-03-08T12:07:17.733Z"}
+{"level":"info","message":"Client disconnect: 94","timestamp":"2017-03-08T12:09:12.514Z"}
+{"level":"info","message":"Create new client: 95","timestamp":"2017-03-08T12:11:04.361Z"}
+{"level":"info","message":"Create new client: 96","timestamp":"2017-03-08T12:11:13.344Z"}
+{"level":"info","message":"Create new client: 97","timestamp":"2017-03-08T12:11:44.233Z"}
+{"level":"info","message":"Client disconnect: 95","timestamp":"2017-03-08T12:14:04.241Z"}
+{"level":"info","message":"Client disconnect: 96","timestamp":"2017-03-08T12:14:04.365Z"}
+{"level":"info","message":"Client disconnect: 97","timestamp":"2017-03-08T12:14:04.500Z"}
+{"level":"info","message":"Create new client: 98","timestamp":"2017-03-08T12:14:20.392Z"}
+{"level":"info","message":"Client disconnect: 98","timestamp":"2017-03-08T12:24:30.038Z"}
+{"level":"info","message":"Create new client: 99","timestamp":"2017-03-08T12:24:37.665Z"}
+{"level":"info","message":"Create new client: 100","timestamp":"2017-03-08T12:24:37.692Z"}
+{"level":"info","message":"Create new client: 101","timestamp":"2017-03-08T12:24:47.414Z"}
+{"level":"info","message":"Client disconnect: 99","timestamp":"2017-03-08T12:29:16.679Z"}
+{"level":"info","message":"Client disconnect: 101","timestamp":"2017-03-08T12:29:16.769Z"}
+{"level":"info","message":"Client disconnect: 100","timestamp":"2017-03-08T12:29:16.960Z"}
+{"level":"info","message":"Create new client: 102","timestamp":"2017-03-08T12:29:22.557Z"}
+{"level":"info","message":"Create new client: 103","timestamp":"2017-03-08T12:29:24.422Z"}
+{"level":"info","message":"Create new client: 104","timestamp":"2017-03-08T12:29:33.136Z"}
+{"level":"info","message":"Client disconnect: 103","timestamp":"2017-03-08T12:33:27.299Z"}
+{"level":"info","message":"Client disconnect: 102","timestamp":"2017-03-08T12:33:27.402Z"}
+{"level":"info","message":"Client disconnect: 104","timestamp":"2017-03-08T12:33:27.404Z"}
+{"level":"info","message":"Create new client: 105","timestamp":"2017-03-08T12:33:34.347Z"}
+{"level":"info","message":"Create new client: 106","timestamp":"2017-03-08T12:33:34.377Z"}
+{"level":"info","message":"Create new client: 107","timestamp":"2017-03-08T12:33:45.164Z"}
+{"level":"info","message":"Client disconnect: 107","timestamp":"2017-03-08T12:34:34.479Z"}
+{"level":"info","message":"Create new client: 108","timestamp":"2017-03-08T12:35:04.401Z"}
+{"level":"info","message":"Client disconnect: 108","timestamp":"2017-03-08T12:35:18.104Z"}
+{"level":"info","message":"Create new client: 109","timestamp":"2017-03-08T12:35:55.653Z"}
+{"level":"info","message":"Client disconnect: 109","timestamp":"2017-03-08T12:36:26.355Z"}
+{"level":"info","message":"Create new client: 110","timestamp":"2017-03-08T12:36:50.333Z"}
+{"level":"info","message":"Client disconnect: 110","timestamp":"2017-03-08T12:37:08.902Z"}
+{"level":"info","message":"Create new client: 111","timestamp":"2017-03-08T12:39:17.696Z"}
+{"level":"info","message":"Create new client: 112","timestamp":"2017-03-08T12:41:42.002Z"}
+{"level":"info","message":"Client disconnect: 112","timestamp":"2017-03-08T12:43:39.873Z"}
+{"level":"info","message":"Create new client: 113","timestamp":"2017-03-08T12:44:04.105Z"}
+{"level":"info","message":"Client disconnect: 113","timestamp":"2017-03-08T12:44:26.933Z"}
+{"level":"info","message":"Create new client: 114","timestamp":"2017-03-08T12:44:51.859Z"}
+{"level":"info","message":"Client disconnect: 114","timestamp":"2017-03-08T12:48:39.035Z"}
+{"level":"info","message":"Create new client: 115","timestamp":"2017-03-08T12:49:02.946Z"}
+{"level":"info","message":"Create new client: 116","timestamp":"2017-03-08T12:49:51.241Z"}
+{"level":"info","message":"Client disconnect: 115","timestamp":"2017-03-08T12:50:14.962Z"}
+{"level":"info","message":"Create new client: 117","timestamp":"2017-03-08T12:50:37.216Z"}
+{"level":"info","message":"Client disconnect: 117","timestamp":"2017-03-08T12:50:45.949Z"}
+{"level":"info","message":"Create new client: 118","timestamp":"2017-03-08T12:51:11.602Z"}
+{"level":"info","message":"Client disconnect: 111","timestamp":"2017-03-08T13:06:40.690Z"}
+{"level":"info","message":"Create new client: 119","timestamp":"2017-03-08T13:06:50.171Z"}
+{"level":"info","message":"Create new client: 120","timestamp":"2017-03-08T14:13:51.417Z"}
+{"level":"info","message":"Client disconnect: 116","timestamp":"2017-03-08T14:14:06.633Z"}
+{"level":"info","message":"Client disconnect: 118","timestamp":"2017-03-08T14:16:25.553Z"}
+{"level":"info","message":"Create new client: 121","timestamp":"2017-03-08T14:16:52.055Z"}
+{"level":"info","message":"Client disconnect: 120","timestamp":"2017-03-08T14:20:28.204Z"}
+{"level":"info","message":"Create new client: 122","timestamp":"2017-03-08T14:20:28.291Z"}
+{"level":"info","message":"Client disconnect: 121","timestamp":"2017-03-08T14:21:56.783Z"}
+{"level":"info","message":"Create new client: 123","timestamp":"2017-03-08T14:22:19.361Z"}
+{"level":"info","message":"Client disconnect: 123","timestamp":"2017-03-08T14:31:11.395Z"}
+{"level":"info","message":"Create new client: 124","timestamp":"2017-03-08T14:31:36.020Z"}
+{"level":"info","message":"Client disconnect: 105","timestamp":"2017-03-08T14:37:10.417Z"}
+{"level":"info","message":"Client disconnect: 122","timestamp":"2017-03-08T14:37:11.807Z"}
+{"level":"info","message":"Client disconnect: 124","timestamp":"2017-03-08T14:37:13.446Z"}
+{"level":"info","message":"Create new client: 125","timestamp":"2017-03-08T14:37:19.630Z"}
+{"level":"info","message":"Create new client: 126","timestamp":"2017-03-08T14:37:29.395Z"}
+{"level":"info","message":"Client disconnect: 126","timestamp":"2017-03-08T14:37:46.190Z"}
+{"level":"info","message":"Create new client: 127","timestamp":"2017-03-08T14:38:27.655Z"}
+{"level":"info","message":"Client disconnect: 127","timestamp":"2017-03-08T14:39:37.659Z"}
+{"level":"info","message":"Create new client: 128","timestamp":"2017-03-08T14:39:52.690Z"}
+{"level":"info","message":"Client disconnect: 128","timestamp":"2017-03-08T14:39:58.855Z"}
+{"level":"info","message":"Create new client: 129","timestamp":"2017-03-08T14:40:08.144Z"}
+{"level":"info","message":"Client disconnect: 129","timestamp":"2017-03-08T15:42:29.136Z"}
+{"level":"info","message":"Create new client: 130","timestamp":"2017-03-08T15:42:30.317Z"}
+{"level":"info","message":"Create new client: 131","timestamp":"2017-03-08T15:52:05.677Z"}
+{"level":"info","message":"Client disconnect: 131","timestamp":"2017-03-08T15:59:54.861Z"}
+{"level":"info","message":"Create new client: 132","timestamp":"2017-03-08T16:00:06.820Z"}
+{"level":"info","message":"Client disconnect: 132","timestamp":"2017-03-08T16:05:13.285Z"}
+{"level":"info","message":"Create new client: 133","timestamp":"2017-03-08T16:05:30.888Z"}
+{"level":"info","message":"Client disconnect: 133","timestamp":"2017-03-08T16:09:48.377Z"}
+{"level":"info","message":"Create new client: 134","timestamp":"2017-03-08T16:11:08.952Z"}
+{"level":"info","message":"Client disconnect: 134","timestamp":"2017-03-08T16:20:58.495Z"}
+{"level":"info","message":"Create new client: 135","timestamp":"2017-03-08T16:24:13.902Z"}
+{"level":"info","message":"Client disconnect: 135","timestamp":"2017-03-08T16:24:37.837Z"}
+{"level":"info","message":"Create new client: 136","timestamp":"2017-03-08T16:24:51.529Z"}
+{"level":"info","message":"Client disconnect: 136","timestamp":"2017-03-08T16:27:24.137Z"}
+{"level":"info","message":"Create new client: 137","timestamp":"2017-03-08T16:27:36.893Z"}
+{"level":"info","message":"Client disconnect: 137","timestamp":"2017-03-08T16:33:11.688Z"}
+{"level":"info","message":"Create new client: 138","timestamp":"2017-03-08T16:33:24.953Z"}
+{"level":"info","message":"Client disconnect: 138","timestamp":"2017-03-08T16:36:53.697Z"}
+{"level":"info","message":"Create new client: 139","timestamp":"2017-03-08T16:36:58.293Z"}
+{"level":"info","message":"Client disconnect: 139","timestamp":"2017-03-08T16:38:10.291Z"}
+{"level":"info","message":"Create new client: 140","timestamp":"2017-03-08T16:38:19.215Z"}
+{"level":"info","message":"Client disconnect: 125","timestamp":"2017-03-08T16:45:14.248Z"}
+{"level":"info","message":"Create new client: 141","timestamp":"2017-03-08T16:45:21.849Z"}
+{"level":"info","message":"Client disconnect: 140","timestamp":"2017-03-08T16:48:38.835Z"}
+{"level":"info","message":"Create new client: 142","timestamp":"2017-03-08T16:51:26.998Z"}
+{"level":"info","message":"Client disconnect: 142","timestamp":"2017-03-08T16:51:51.349Z"}
+{"level":"info","message":"Create new client: 143","timestamp":"2017-03-08T16:51:58.492Z"}
+{"level":"info","message":"Client disconnect: 130","timestamp":"2017-03-08T17:04:51.862Z"}
+{"level":"info","message":"Create new client: 144","timestamp":"2017-03-08T17:04:57.015Z"}
+{"level":"info","message":"Client disconnect: 143","timestamp":"2017-03-08T17:08:47.116Z"}
+{"level":"info","message":"Create new client: 145","timestamp":"2017-03-08T17:08:54.356Z"}
+{"level":"info","message":"Client disconnect: 145","timestamp":"2017-03-08T17:09:54.150Z"}
+{"level":"info","message":"Create new client: 146","timestamp":"2017-03-08T17:11:46.765Z"}
+{"level":"info","message":"Client disconnect: 146","timestamp":"2017-03-08T17:12:06.448Z"}
+{"level":"info","message":"Client disconnect: 144","timestamp":"2017-03-08T17:12:31.042Z"}
+{"level":"info","message":"Create new client: 147","timestamp":"2017-03-08T17:12:40.822Z"}
+{"level":"info","message":"Create new client: 148","timestamp":"2017-03-08T17:13:30.058Z"}
+{"level":"info","message":"Client disconnect: 148","timestamp":"2017-03-08T17:14:30.424Z"}
+{"level":"info","message":"Create new client: 149","timestamp":"2017-03-08T17:16:56.325Z"}
+{"level":"info","message":"Client disconnect: 149","timestamp":"2017-03-08T17:18:14.684Z"}
+{"level":"info","message":"Create new client: 150","timestamp":"2017-03-08T17:20:19.548Z"}
+{"level":"info","message":"Client disconnect: 150","timestamp":"2017-03-08T17:22:26.592Z"}
+{"level":"info","message":"Create new client: 151","timestamp":"2017-03-08T17:22:55.064Z"}
+{"level":"info","message":"Client disconnect: 141","timestamp":"2017-03-08T17:24:39.564Z"}
+{"level":"info","message":"Client disconnect: 119","timestamp":"2017-03-08T17:24:47.009Z"}
+{"level":"info","message":"Create new client: 152","timestamp":"2017-03-08T17:24:48.808Z"}
+{"level":"info","message":"Client disconnect: 152","timestamp":"2017-03-08T17:27:07.239Z"}
+{"level":"info","message":"Create new client: 153","timestamp":"2017-03-08T17:27:12.809Z"}
+{"level":"info","message":"Client disconnect: 151","timestamp":"2017-03-08T17:28:57.358Z"}
+{"level":"info","message":"Client disconnect: 147","timestamp":"2017-03-08T17:29:06.535Z"}
+{"level":"info","message":"Create new client: 154","timestamp":"2017-03-08T17:29:33.420Z"}
+{"level":"info","message":"Client disconnect: 154","timestamp":"2017-03-08T22:07:38.365Z"}
+{"level":"info","message":"Create new client: 155","timestamp":"2017-03-08T22:07:50.874Z"}
+{"level":"info","message":"Client disconnect: 155","timestamp":"2017-03-08T22:26:15.489Z"}
+{"level":"info","message":"Create new client: 156","timestamp":"2017-03-08T22:35:52.512Z"}
+{"level":"info","message":"Client disconnect: 156","timestamp":"2017-03-08T22:39:36.458Z"}
+{"level":"info","message":"Create new client: 157","timestamp":"2017-03-08T22:39:55.507Z"}
+{"level":"info","message":"Create new client: 158","timestamp":"2017-03-08T22:40:12.446Z"}
+{"level":"info","message":"Client disconnect: 158","timestamp":"2017-03-08T22:43:03.940Z"}
+{"level":"info","message":"Create new client: 159","timestamp":"2017-03-08T22:43:08.312Z"}
+{"level":"info","message":"Client disconnect: 159","timestamp":"2017-03-08T22:48:37.480Z"}
+{"level":"info","message":"Create new client: 160","timestamp":"2017-03-08T22:48:51.137Z"}
+{"level":"info","message":"Client disconnect: 157","timestamp":"2017-03-08T22:51:47.306Z"}
+{"level":"info","message":"Create new client: 161","timestamp":"2017-03-08T22:52:10.692Z"}
+{"level":"info","message":"Client disconnect: 160","timestamp":"2017-03-08T22:54:00.794Z"}
+{"level":"info","message":"Create new client: 162","timestamp":"2017-03-08T22:57:48.478Z"}
+{"level":"info","message":"Client disconnect: 161","timestamp":"2017-03-08T23:03:33.972Z"}
+{"level":"info","message":"Create new client: 163","timestamp":"2017-03-08T23:03:58.674Z"}
+{"level":"info","message":"Client disconnect: 162","timestamp":"2017-03-08T23:04:36.951Z"}
+{"level":"info","message":"Create new client: 164","timestamp":"2017-03-08T23:05:01.368Z"}
+{"level":"info","message":"Client disconnect: 164","timestamp":"2017-03-08T23:11:10.712Z"}
+{"level":"info","message":"Create new client: 165","timestamp":"2017-03-08T23:11:15.562Z"}
+{"level":"info","message":"Client disconnect: 165","timestamp":"2017-03-08T23:13:50.942Z"}
+{"level":"info","message":"Create new client: 166","timestamp":"2017-03-08T23:13:55.031Z"}
+{"level":"info","message":"Client disconnect: 163","timestamp":"2017-03-08T23:18:44.817Z"}
+{"level":"info","message":"Create new client: 167","timestamp":"2017-03-08T23:19:07.643Z"}
+{"level":"info","message":"Client disconnect: 166","timestamp":"2017-03-08T23:28:37.611Z"}
+{"level":"info","message":"Create new client: 168","timestamp":"2017-03-08T23:28:41.874Z"}
+{"level":"info","message":"Client disconnect: 168","timestamp":"2017-03-08T23:35:07.163Z"}
+{"level":"info","message":"Client disconnect: 167","timestamp":"2017-03-08T23:36:40.275Z"}
+{"level":"info","message":"Create new client: 169","timestamp":"2017-03-08T23:36:51.634Z"}
+{"level":"info","message":"Create new client: 170","timestamp":"2017-03-08T23:37:03.359Z"}
+{"level":"info","message":"Client disconnect: 169","timestamp":"2017-03-08T23:47:11.832Z"}

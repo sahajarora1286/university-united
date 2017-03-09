@@ -1,0 +1,42 @@
+
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Chats</ion-title>
+
+     <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-refresher (ionRefresh)="getChats($event)">
+    <ion-refresher-content>
+     
+    </ion-refresher-content>
+  </ion-refresher>
+  <h3 style="text-align: center; color:lightgrey">{{noMessages}}</h3>
+  <ion-list >
+
+    <ion-item *ngFor="let chat of chats">
+        <ion-avatar style="margin:auto; text-align: center" 
+        item-left style="width:15%" >
+          <img style="text-align: center" item-left src="assets/images/person.png" />
+        </ion-avatar>
+        <div style="width:85%" (click)="goToChat(chat.from)">
+        <h2 style="color: red">{{chat.from?.get('name')}}</h2>
+        <h3 style="word-wrap:break-word; 
+        overflow:visible; white-space:normal"> {{chat.lastText}} </h3>
+        </div>
+      </ion-item>
+
+  </ion-list>
+
+</ion-content>
+

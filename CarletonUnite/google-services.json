@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "294166891765",
+    "firebase_url": "https://carletonunite.firebaseio.com",
+    "project_id": "carletonunite",
+    "storage_bucket": "carletonunite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294166891765:android:2fc0b9a81457c6a0",
+        "android_client_info": {
+          "package_name": "com.ionicframework.carletonunite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294166891765-7ockpm4i3avenob1gjtpqhor86o5n1nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Eq74Kvnjiq2JUfYUrUErCWEqUlUV9Ls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>{{course.code}}</ion-title>
+
+     <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+<!--<ion-icon name="more"></ion-icon>-->
+
+
+</ion-header>
+<ion-content >
+ <ion-refresher (ionRefresh)="getTopics($event)">
+    <ion-refresher-content>
+     
+    </ion-refresher-content>
+  </ion-refresher>
+<ion-fab top right (click)="showAddDialog()">
+    <button ion-fab color="danger" mini><ion-icon name="add"></ion-icon></button>
+</ion-fab>
+
+
+  <ion-item no-lines >
+        <ion-avatar item-left>
+          <img src="assets/images/book.png" />
+        </ion-avatar>
+        <h2>{{course.code}}</h2>
+        <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{course.name}} </h3>
+        <button  item-bottom-right ion-button style="padding: 5px"  color="danger" (click)="addCourseToMyCourses(course)">
+          <ion-icon style="padding:5px" name="add"> Add to My Courses</ion-icon>
+        </button>
+      </ion-item>
+<ion-list  >
+      <ion-item *ngFor="let topic of topics">
+        <ion-avatar style="margin:auto; text-align: center" item-left style="width:15%" (click) = "viewProfile(topic)">
+          <img style="text-align: center" item-left src="assets/images/person.png" />
+          <label style="text-align: center; font-size: 13px" >{{topic?.get('poster')?.get('name')}}</label>
+        </ion-avatar>
+        <div style="width:85%">
+        <h2 style="color: red">{{topic?.get('name')}}</h2>
+        <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{topic?.get('description')}} </h3>
+        </div>
+      </ion-item>
+
+</ion-list>
+</ion-content>

@@ -1,0 +1,9 @@
+{"level":"info","message":"Client disconnect: 170","timestamp":"2017-03-09T00:12:33.970Z"}
+{"level":"info","message":"Create new client: 171","timestamp":"2017-03-09T00:12:50.465Z"}
+{"level":"info","message":"Create new client: 172","timestamp":"2017-03-09T00:13:02.591Z"}
+{"level":"info","message":"Client disconnect: 171","timestamp":"2017-03-09T00:15:17.672Z"}
+{"level":"info","message":"Create new client: 173","timestamp":"2017-03-09T00:27:44.900Z"}
+{"level":"error","message":"Can not find subscription with clientId 173 subscriptionId 10","timestamp":"2017-03-09T00:27:44.924Z"}
+{"level":"info","message":"Client disconnect: 173","timestamp":"2017-03-09T00:30:31.727Z"}
+{"level":"info","message":"Client disconnect: 172","timestamp":"2017-03-09T00:34:30.736Z"}
+{"level":"info","message":"Create new client: 174","timestamp":"2017-03-09T00:34:38.921Z"}

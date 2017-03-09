@@ -1,0 +1,10 @@
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-03-07T01:24:32.249Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-03-07T01:24:32.255Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-03-07T01:28:04.706Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-03-07T01:28:04.707Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-03-07T01:28:17.365Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-03-07T01:28:17.366Z"}
+{"level":"error","message":"Can not find subscription with clientId 81 subscriptionId 6","timestamp":"2017-03-07T02:12:52.120Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-03-07T02:16:20.180Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-03-07T02:16:20.182Z"}
+{"level":"error","message":"Can not find client NaN on disconnect","timestamp":"2017-03-07T04:53:20.850Z"}

@@ -1,0 +1,44 @@
+{"error":{"code":125,"message":"Email address format is invalid."},"level":"error","message":"Error generating response. ParseError { code: 125, message: 'Email address format is invalid.' }","timestamp":"2017-02-24T12:32:20.370Z"}
+{"code":125,"message":"Email address format is invalid.","level":"error","timestamp":"2017-02-24T12:32:20.376Z"}
+{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2017-02-24T12:35:48.723Z"}
+{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2017-02-24T12:35:48.724Z"}
+{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2017-02-24T12:38:08.516Z"}
+{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2017-02-24T12:38:08.517Z"}
+{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2017-02-24T12:41:24.312Z"}
+{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2017-02-24T12:41:24.314Z"}
+{"error":{"code":203,"message":"Account already exists for this email address."},"level":"error","message":"Error generating response. ParseError {\n  code: 203,\n  message: 'Account already exists for this email address.' }","timestamp":"2017-02-24T12:41:41.095Z"}
+{"code":203,"message":"Account already exists for this email address.","level":"error","timestamp":"2017-02-24T12:41:41.096Z"}
+{"error":{"code":203,"message":"Account already exists for this email address."},"level":"error","message":"Error generating response. ParseError {\n  code: 203,\n  message: 'Account already exists for this email address.' }","timestamp":"2017-02-24T17:45:21.359Z"}
+{"code":203,"message":"Account already exists for this email address.","level":"error","timestamp":"2017-02-24T17:45:21.361Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:00:42.730Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:00:42.732Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:02:17.921Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:02:17.922Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:02:21.565Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:02:21.566Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:08:30.405Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:08:30.407Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:09:54.181Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:09:54.183Z"}
+{"error":{"code":200,"message":"username is required."},"level":"error","message":"Error handling request: ParseError { code: 200, message: 'username is required.' }","timestamp":"2017-02-24T18:10:03.727Z"}
+{"code":200,"message":"username is required.","level":"error","timestamp":"2017-02-24T18:10:03.728Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T18:13:44.971Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T18:13:44.973Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T18:13:51.131Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T18:13:51.132Z"}
+{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2017-02-24T18:18:31.074Z"}
+{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2017-02-24T18:18:31.076Z"}
+{"error":{"code":202,"message":"Account already exists for this username."},"level":"error","message":"Error generating response. ParseError {\n  code: 202,\n  message: 'Account already exists for this username.' }","timestamp":"2017-02-24T18:24:41.452Z"}
+{"code":202,"message":"Account already exists for this username.","level":"error","timestamp":"2017-02-24T18:24:41.458Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T18:43:06.108Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T18:43:06.111Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T18:43:07.427Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T18:43:07.428Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T19:08:03.413Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T19:08:03.415Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T19:08:59.114Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T19:08:59.115Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T19:12:04.703Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T19:12:04.704Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-24T19:13:09.067Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-24T19:13:09.075Z"}

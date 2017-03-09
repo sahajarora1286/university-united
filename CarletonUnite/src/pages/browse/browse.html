@@ -1,0 +1,88 @@
+<ion-header>
+
+  <ion-navbar color="danger">
+
+      <ion-segment padding color="light" [(ngModel)]="browse">
+        <ion-segment-button value="browseCourses">
+          Courses
+        </ion-segment-button>
+
+        <ion-segment-button value="browseUsers" (click)="getUsers()">
+          Users
+        </ion-segment-button>
+        
+      </ion-segment>
+     <ion-buttons end>
+      <button style="font-size: 14px; text-align:right;" ion-button clear  color="light" (click)="logOut()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+<!--<ion-icon name="more"></ion-icon>-->
+
+</ion-header>
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="refresh($event)">
+    <ion-refresher-content>
+     
+    </ion-refresher-content>
+  </ion-refresher>
+  
+
+<div [ngSwitch]="browse">
+ 
+  <ion-list *ngSwitchCase="'browseCourses'">
+    
+      <ion-item  *ngFor="let course of courses" > 
+        <ion-item no-lines (click)="goToCourse(course)">
+        <ion-avatar item-left>
+          <img src="assets/images/book.png" />
+        </ion-avatar>
+        <h2> {{course.code}} </h2>
+        <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{course.name}} </h3>
+        </ion-item>
+       
+        <button item-right ion-button style="padding: 5px" icon-only color="danger" (click)="addCourseToMyCourses(course)">
+          <ion-icon name="add"></ion-icon>
+        </button>
+    
+      </ion-item>
+
+      <ion-item-options side="right">
+        <button ion-button icon-only color="danger">
+          <ion-icon name="add"></ion-icon>
+        </button>
+      </ion-item-options>
+
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'browseUsers'"  >
+    <ion-item  *ngFor="let user of users" > 
+        <ion-item no-lines (click)="goToUser(user)">
+        <ion-avatar item-left>
+          <img src="assets/images/person.png" />
+        </ion-avatar>
+        <h2> {{user?.get('name')}} </h2>
+        <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{user?.get('major')}} </h3>
+        </ion-item>
+       
+        <button item-right ion-button style="padding: 5px" icon-only color="danger" >
+          <ion-icon name="add"></ion-icon>
+        </button>
+    
+      </ion-item>
+
+      <ion-item-options side="right">
+        <button ion-button icon-only color="danger">
+          <ion-icon name="add"></ion-icon>
+        </button>
+      </ion-item-options>
+  </ion-list>
+
+</div>
+
+  
+</ion-content>
+

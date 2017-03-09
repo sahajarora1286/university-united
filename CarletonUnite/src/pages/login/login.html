@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Carleton Unite
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <img src="assets/images/logo-carleton.png" class="logo"/>
+  </ion-card>
+  <ion-list no-lines>
+      <ion-item>
+        <ion-label  floating>E-mail</ion-label>
+
+        <ion-input style="color:red;" type="email"  [(ngModel)]="user.email"> </ion-input>
+      </ion-item>
+
+       <ion-item>
+        <ion-label  floating>Password</ion-label>
+
+        <ion-input center style="color:red;" type="password"  [(ngModel)]="user.password"> </ion-input>
+      </ion-item>
+  </ion-list>
+
+  <button style="background:red" block button-assertive ion-button (click)="login()">Login</button>
+  <button style="color:red" clear block ion-button (click)="goToSignUp()">No Account? Sign Up Here</button>
+
+</ion-content>

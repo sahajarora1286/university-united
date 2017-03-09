@@ -1,0 +1,48 @@
+{"error":{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class Course is not empty, contains 4 objects, cannot drop schema.' }","timestamp":"2017-02-25T19:55:00.963Z"}
+{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema.","level":"error","timestamp":"2017-02-25T19:55:00.973Z"}
+{"error":{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class Course is not empty, contains 4 objects, cannot drop schema.' }","timestamp":"2017-02-25T19:55:05.294Z"}
+{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema.","level":"error","timestamp":"2017-02-25T19:55:05.296Z"}
+{"error":{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema."},"level":"error","message":"Error generating response. ParseError {\n  code: 255,\n  message: 'Class Course is not empty, contains 4 objects, cannot drop schema.' }","timestamp":"2017-02-25T19:55:20.778Z"}
+{"code":255,"message":"Class Course is not empty, contains 4 objects, cannot drop schema.","level":"error","timestamp":"2017-02-25T19:55:20.778Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:00:19.776Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:00:19.779Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:00:23.615Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:00:23.616Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:00:23.628Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:00:23.630Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:20:30.810Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:20:30.812Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:20:30.815Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:20:30.817Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:36:02.303Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:36:02.317Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:36:02.321Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:36:02.323Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:37:38.487Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:37:38.490Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T20:37:38.495Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T20:37:38.496Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T21:36:09.706Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T21:36:09.709Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T21:36:09.748Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T21:36:09.751Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T21:47:05.633Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T21:47:05.636Z"}
+{"error":{"code":105,"message":"Invalid field name: 0."},"level":"error","message":"Error generating response. ParseError { code: 105, message: 'Invalid field name: 0.' }","timestamp":"2017-02-25T21:47:05.642Z"}
+{"code":105,"message":"Invalid field name: 0.","level":"error","timestamp":"2017-02-25T21:47:05.645Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:03:32.282Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:03:32.289Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:04:47.626Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:04:47.627Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:11:38.738Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:11:38.740Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:13:02.311Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:13:02.312Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:13:35.334Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:13:35.335Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:13:43.399Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:13:43.400Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:57:08.498Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:57:08.499Z"}
+{"error":{"code":101,"message":"Invalid username/password."},"level":"error","message":"Error generating response. ParseError { code: 101, message: 'Invalid username/password.' }","timestamp":"2017-02-25T22:58:14.654Z"}
+{"code":101,"message":"Invalid username/password.","level":"error","timestamp":"2017-02-25T22:58:14.655Z"}

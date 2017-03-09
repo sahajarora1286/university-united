@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Sign Up
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <img src="assets/images/logo-carleton.png" class="logo"/>
+  </ion-card>
+
+ 
+     
+        <h1> What's your Major? </h1>
+        
+        <ion-input fixed placeholder="Enter major... Eg: Software Engineering" 
+        style="color:red; margin-top: 25px" type="text" [(ngModel)]="user.major"> </ion-input>
+     
+
+      <button style="background:red; margin-top: 35px" block button-assertive ion-button (click)="signUp()">Sign Up</button>
+
+ 
+  
+
+</ion-content>

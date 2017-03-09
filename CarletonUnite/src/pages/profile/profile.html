@@ -1,0 +1,50 @@
+
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>{{user?.get('name')}}</ion-title>
+
+     <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+<!--<ion-icon name="more"></ion-icon>-->
+
+
+</ion-header>
+<ion-content padding>
+  
+  
+    <ion-item no-lines>
+        <ion-avatar item-left>
+          <img src="assets/images/person.png" />
+        </ion-avatar>
+        <h1 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{user?.get('name')}} </h1>
+        
+        <h3 style="margin-top: 20px; word-wrap:break-word; overflow:visible; white-space:normal"> {{user?.get('major')}} </h3>
+
+    
+
+    <button item-right ion-button style="padding: 5px" icon-only color="danger" (click)="openChat()" >
+          <ion-icon name="chatbubbles"></ion-icon>
+    </button>
+       
+</ion-item>
+ 
+
+   <div>
+      <ion-segment  color="danger" [(ngModel)]="profile">
+        <ion-segment-button value="about">
+          About
+        </ion-segment-button>
+
+        <ion-segment-button value="courses">
+          Courses Following
+        </ion-segment-button>
+        
+      </ion-segment>
+    </div>   
+  
+</ion-content>
