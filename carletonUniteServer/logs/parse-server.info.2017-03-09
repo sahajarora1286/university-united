@@ -75,3 +75,5 @@
 {"level":"info","message":"Client disconnect: 207","timestamp":"2017-03-09T06:44:20.700Z"}
 {"level":"info","message":"Create new client: 208","timestamp":"2017-03-09T06:47:26.721Z"}
 {"level":"info","message":"Client disconnect: 208","timestamp":"2017-03-09T06:49:53.646Z"}
+{"level":"info","message":"Client disconnect: 204","timestamp":"2017-03-09T07:12:17.665Z"}
+{"level":"info","message":"Create new client: 209","timestamp":"2017-03-09T07:12:26.324Z"}

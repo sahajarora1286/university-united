@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-http": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "parse-push-plugin": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        }
+    }
+}

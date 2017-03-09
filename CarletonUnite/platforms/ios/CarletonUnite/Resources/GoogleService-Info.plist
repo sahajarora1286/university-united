@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>294166891765-f533sn42u2mb8hu2aheisoqr5v5mtv2a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.294166891765-f533sn42u2mb8hu2aheisoqr5v5mtv2a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAanbPdGbxRyuYzFVNyu-8eki9Uc4l-7jQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>294166891765</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ionicframework.carletonunite</string>
+	<key>PROJECT_ID</key>
+	<string>carletonunite</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carletonunite.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:294166891765:ios:2fc0b9a81457c6a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://carletonunite.firebaseio.com</string>
+</dict>
+</plist>
