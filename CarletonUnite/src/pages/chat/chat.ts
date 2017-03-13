@@ -211,7 +211,7 @@ export class ChatPage {
       success: function(results){
             me.messages = results;
             me.scrollList(me);
-            console.log(results);
+            //console.log(results);
       }, error: function(results, error){
             console.log(error.message);
       }
