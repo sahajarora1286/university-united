@@ -39,6 +39,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
         }
     },
     "dependent_plugins": {

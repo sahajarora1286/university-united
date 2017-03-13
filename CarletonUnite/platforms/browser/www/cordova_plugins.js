@@ -283,6 +283,14 @@ module.exports = [
         "id": "cordova-plugin-camera.CameraProxy",
         "pluginId": "cordova-plugin-camera",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "pluginId": "cordova-sqlite-storage",
+        "clobbers": [
+            "SQLitePlugin"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -299,7 +307,8 @@ module.exports.metadata =
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-firebase": "0.1.19",
     "com.synconset.imagepicker": "2.1.7",
-    "cordova-plugin-camera": "2.4.0"
+    "cordova-plugin-camera": "2.4.0",
+    "cordova-sqlite-storage": "2.0.2"
 }
 // BOTTOM OF METADATA
 });

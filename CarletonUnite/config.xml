@@ -44,4 +44,5 @@
   <plugin name="cordova-plugin-splashscreen" spec="~4.0.1"/>
   <plugin name="parse-push-plugin" spec="https://github.com/taivo/parse-push-plugin"/>
   <plugin name="cordova-plugin-firebase" spec="~0.1.19"/>
+  <plugin name="cordova-sqlite-storage" spec="~2.0.2"/>
 </widget>

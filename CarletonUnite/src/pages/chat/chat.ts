@@ -1,8 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
-import { Events, NavController, NavParams, Content } from 'ionic-angular';
+import { LoadingController, Events, NavController, NavParams, Content } from 'ionic-angular';
 import Parse from 'parse';
 import { Http, Headers, Request, RequestOptions, RequestMethod} from '@angular/http';
-import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/map';
 
 /*
   Generated class for the Chat page.
@@ -27,11 +27,19 @@ export class ChatPage {
   //content;
   chatQuery;
   subscription;
+  loading; 
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-              public events: Events, public http: Http) {
+              public events: Events, public http: Http, 
+              public loadingCtrl: LoadingController) {
                
     var me = this;
+
+    me.loading = this.loadingCtrl.create({
+      content: 'Loading Messages...'
+    });
+
+    me.loading.present();
     
     me.currentUser = Parse.User.current();
     me.toUser = navParams.get("user");
@@ -211,6 +219,7 @@ export class ChatPage {
       success: function(results){
             me.messages = results;
             me.scrollList(me);
+            me.loading.dismissAll();
             //console.log(results);
       }, error: function(results, error){
             console.log(error.message);

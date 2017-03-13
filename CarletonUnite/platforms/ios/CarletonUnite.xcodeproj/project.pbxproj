@@ -86,6 +86,8 @@
 		AACC5BD4778D49B49F55561B /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2DFD61B3446C2AF15D0BB /* CDVJpegHeaderWriter.m */; };
 		0AEE273BA30849CDA7387974 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EBA3D7880F4D5C8F56129F /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2211A301F28148918E458261 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA327032D18848FD8F6A27AD /* AVFoundation.framework */; };
+		6B31A0E3C8F94ECEA20F672A /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4129A592CA49E69DA77A9F /* SQLitePlugin.m */; };
+		2E4BD772965F42E497DDEC46 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = F094519284A041F1BE46CFAB /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_TEMP_STORE=2 -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE  -DSQLITE_OMIT_BUILTIN_TEST -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_DEFAULT_PAGE_SIZE=1024 -DSQLITE_DEFAULT_CACHE_SIZE=2000"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +239,10 @@
 		8695D68CF4854C55A488E052 /* CDVExif.h */ = {isa = PBXFileReference; name = "CDVExif.h"; path = "cordova-plugin-camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		78EBA3D7880F4D5C8F56129F /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		AA327032D18848FD8F6A27AD /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		3C4129A592CA49E69DA77A9F /* SQLitePlugin.m */ = {isa = PBXFileReference; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F094519284A041F1BE46CFAB /* sqlite3.c */ = {isa = PBXFileReference; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC190BC8BB2E484486F75453 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8104656C4DAF43E98A9CFC06 /* sqlite3.h */ = {isa = PBXFileReference; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -476,6 +482,10 @@
 				0613DE59E6EB4A27B42094F8 /* CDVCamera.h */,
 				20AC12461E0D445280F3D64A /* CDVJpegHeaderWriter.h */,
 				8695D68CF4854C55A488E052 /* CDVExif.h */,
+				3C4129A592CA49E69DA77A9F /* SQLitePlugin.m */,
+				F094519284A041F1BE46CFAB /* sqlite3.c */,
+				EC190BC8BB2E484486F75453 /* SQLitePlugin.h */,
+				8104656C4DAF43E98A9CFC06 /* sqlite3.h */,
 			);
 			name = Plugins;
 			path = CarletonUnite/Plugins;
@@ -659,6 +669,8 @@
 				E666F52CC6D74786AFFE4F28 /* UIImage+CropScaleOrientation.m in Sources */,
 				DFBDC61644D54329B15D0464 /* CDVCamera.m in Sources */,
 				AACC5BD4778D49B49F55561B /* CDVJpegHeaderWriter.m in Sources */,
+				6B31A0E3C8F94ECEA20F672A /* SQLitePlugin.m in Sources */,
+				2E4BD772965F42E497DDEC46 /* sqlite3.c in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

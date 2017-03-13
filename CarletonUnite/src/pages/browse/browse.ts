@@ -78,9 +78,9 @@ export class BrowsePage {
                   query.get(fromId, {
                     success: function(result){
                       toUser = result;
-                      me.navCtrl.push(ChatPage, {
-                        user: toUser
-                      });
+                      // me.navCtrl.push(ChatPage, {
+                      //   user: toUser
+                      // });
                       //me.events.publish('toast:event', {message: "Take user to chat page", timer: 4000, position: 'top'});
                     }, error: function(result, error){
                       me.events.publish('toast:event', {message: "Error fetching PN user: " + error.message, timer: 4000, position: 'bottom'});

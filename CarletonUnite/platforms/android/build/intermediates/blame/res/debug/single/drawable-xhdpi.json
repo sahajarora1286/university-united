@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_discard_light.png",
+        "source": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/res/drawable-xhdpi/ic_action_discard_light.png"
+    },
+    {
+        "merged": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_discard_dark.png",
+        "source": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/res/drawable-xhdpi/ic_action_discard_dark.png"
+    },
+    {
+        "merged": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_done_dark.png",
+        "source": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/res/drawable-xhdpi/ic_action_done_dark.png"
+    },
+    {
+        "merged": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_done_light.png",
+        "source": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/res/drawable-xhdpi/ic_action_done_light.png"
+    },
+    {
+        "merged": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

@@ -14,27 +14,7 @@ import {ChatPage} from '../pages/chat/chat';
 import {MessagesPage} from '../pages/messages/messages';
 import {CloudService} from '../providers/cloud-service';
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
-
-
-// const cloudSettings : CloudSettings = {
-//   'core':{
-//     'app_id': '6890dedd'
-//   },
-//   'push': {
-//     'sender_id': '602775050072',
-//     'pluginConfig': {
-//       'ios': {
-//         'badge': true,
-//         'sound': true
-//       }, 
-//       'android': {
-//         'iconColor': '#343434'
-//       }
-//     }
-//   }
-// };
-
-
+import { Storage } from '@ionic/storage';
 
 @NgModule({
   declarations: [
@@ -48,8 +28,7 @@ import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
   imports: [
     IonicModule.forRoot(MyApp, {
       tabsPlacement: 'bottom'
-    })
-  //  CloudModule.forRoot(cloudSettings)
+    }),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -62,6 +41,7 @@ import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    CloudService]
+    CloudService,
+    Storage]
 })
 export class AppModule {}
