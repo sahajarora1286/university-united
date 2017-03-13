@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		nCJf9vIry6KIp684MF9Xjt6FlMw=
+		iYbqP0I6NMCQZ3AM4wsy31TXBuo=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,31 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		6YhPUeFb22u0NGrBc2FgZSzNmI0=
+		3RTXuzgIZ+ZIgwmAf3NXH4OVWog=
+		</data>
+		<key>GMEmptyFolder@1x.png</key>
+		<data>
+		e11RHTQ4JWqtQ1GEnqyGGeWkaUI=
+		</data>
+		<key>GMEmptyFolder@2x.png</key>
+		<data>
+		fOXmu5ogCwKOMfAsoHh3wVTkW6U=
+		</data>
+		<key>GMSelected.png</key>
+		<data>
+		ZwDkB0AtEGOc9mVvXWsikNLIPc4=
+		</data>
+		<key>GMSelected@2x.png</key>
+		<data>
+		dYdXIWdj8ciaNEKDgXD7YTXmJH4=
+		</data>
+		<key>GMVideoIcon.png</key>
+		<data>
+		zPJxIqss3DiQtg8Jk+/G/6Zz5JY=
+		</data>
+		<key>GMVideoIcon@2x.png</key>
+		<data>
+		+oBUakBslNRvR14HvkkK/wfRC74=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -102,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tLy0QKU5wV7Dx4EG+Aw4iK9Zwrk=
+		X/gykHutgazhdIqlR61gdd9pKjk=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -162,7 +186,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		jqr8PD7Ipe7S3sfgWXJP4sB+22Y=
+		X0Tx69WcxaXGDtJzeH97BWjFv1c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -172,14 +196,77 @@
 		<data>
 		uVC4UsEAjsaAorNMAW+mHUKgk9o=
 		</data>
+		<key>ca.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Z3+BQ3ns69eAUqsYM7PSTvRl88=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>config.xml</key>
 		<data>
-		sp9mSeVT2PICmirPvI8t6b0MUFs=
+		Wqg0sTKTRmkCJRcPud4nstFRppU=
 		</data>
+		<key>de.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SIrgPYJ3MnIjxXpwoJTQl+2PB7U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>embedded.mobileprovision</key>
 		<data>
 		sCvh/xeK3iQvSjcQhcBKbXgk/Po=
 		</data>
+		<key>en.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9HW4hIN6wuwMkrWYeAWlLER7rnY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LfhkTllnSNW4sdjXTuJAk4F98dU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TvnIz1/phnmLHl10uhgOP++M1rM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dUkbC8/BE4dZrUCNHLnNFyLlpho=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2/OXww4TK63SFxiGefgrYql+rOY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>www/assets/fonts/ionicons.eot</key>
 		<data>
 		UzcGPr5qZbRxE/eJuC4MlnXMRNc=
@@ -284,6 +371,10 @@
 		<data>
 		4CBO8F/pIq40x+/UHR1SpoRfQHs=
 		</data>
+		<key>www/assets/images/chat-wallpaper.jpg</key>
+		<data>
+		C+Y8hP1Gubp9E0TVfjOmeiCFE5I=
+		</data>
 		<key>www/assets/images/logo-carleton.png</key>
 		<data>
 		w+JLYUM/hD3qfVPUCXgK3X9ioH0=
@@ -302,11 +393,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		xVymbqq55ycq8KhpV56ZRneewgM=
+		bbzvo8UVGXmg6jPnfT/rDbAFqAo=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		AgU074giGfEyUQRdKTuRFR3N40k=
+		WgaxPvgOsJ0R4QitNIOia/gzzSA=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -330,7 +421,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		ur+n/7qvgnfZKUf4Y5Q0mAVBCUo=
+		2n0odanZ5WHBFXjRKYasSnG1KgM=
 		</data>
 		<key>www/index.html</key>
 		<data>
@@ -339,6 +430,26 @@
 		<key>www/manifest.json</key>
 		<data>
 		HR505fpvAsEq+F1n9SBsE8vpVSQ=
+		</data>
+		<key>www/plugins/com.synconset.imagepicker/www/imagepicker.js</key>
+		<data>
+		zvqn3mut8bq2tRkzcicPKFg82pw=
+		</data>
+		<key>www/plugins/cordova-plugin-camera/www/Camera.js</key>
+		<data>
+		SIYzAGOWUrafT4SXCVCSdpiOQaw=
+		</data>
+		<key>www/plugins/cordova-plugin-camera/www/CameraConstants.js</key>
+		<data>
+		z6XuqatNGGOOieiBDp4Ow3ag+Lg=
+		</data>
+		<key>www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js</key>
+		<data>
+		8aByrw3Dl008NLTxVyD3wrMkaGs=
+		</data>
+		<key>www/plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js</key>
+		<data>
+		BGPJLreG2O+OYfIg0g0vbA3c7FM=
 		</data>
 		<key>www/plugins/cordova-plugin-console/www/console-via-logger.js</key>
 		<data>
@@ -695,11 +806,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nCJf9vIry6KIp684MF9Xjt6FlMw=
+			iYbqP0I6NMCQZ3AM4wsy31TXBuo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3LwUG4O8cZKhzU7MzrT6oShE/v1Kgs5O2TCgUgxhvOM=
+			A+/WiCZGayi76BCRFgney3RC1f+0UMF7nYSLzgkLPTM=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -717,11 +828,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6YhPUeFb22u0NGrBc2FgZSzNmI0=
+			3RTXuzgIZ+ZIgwmAf3NXH4OVWog=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eopvn+wzt7t9kSWRme7zh1YuQnb5Ixs9rhN0IEpEPwo=
+			zbPmCCRgYTcJXdaw6g7t6kq39OkpQWInJjn2fnQ1oXA=
+			</data>
+		</dict>
+		<key>GMEmptyFolder@1x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e11RHTQ4JWqtQ1GEnqyGGeWkaUI=
+			</data>
+			<key>hash2</key>
+			<data>
+			brpjTVfCOCFzWHPHebqTzmeHmHYz7iaaNvDTg2coiWg=
+			</data>
+		</dict>
+		<key>GMEmptyFolder@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOXmu5ogCwKOMfAsoHh3wVTkW6U=
+			</data>
+			<key>hash2</key>
+			<data>
+			MFNzuueqxDucOBF2+tL8XPE8TSrS+YDnIdCExts5z9k=
+			</data>
+		</dict>
+		<key>GMSelected.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZwDkB0AtEGOc9mVvXWsikNLIPc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			qAjrDrcMEToWeimHD3xcbQdMUriGhqeH892Sch0kO6I=
+			</data>
+		</dict>
+		<key>GMSelected@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dYdXIWdj8ciaNEKDgXD7YTXmJH4=
+			</data>
+			<key>hash2</key>
+			<data>
+			5ZscmfWqKu41JN3GkIJHRp/t3X6scM5cnv0BjMcERHk=
+			</data>
+		</dict>
+		<key>GMVideoIcon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zPJxIqss3DiQtg8Jk+/G/6Zz5JY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kv4tkR0O0vXQTYXCXD9M1MOy4FcYYcx9b8PY5d/3zFw=
+			</data>
+		</dict>
+		<key>GMVideoIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+oBUakBslNRvR14HvkkK/wfRC74=
+			</data>
+			<key>hash2</key>
+			<data>
+			McXaRs5WmUfBR9h6zvmlcfJEQde/ZFYytguL7r4MTnk=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -893,11 +1070,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jqr8PD7Ipe7S3sfgWXJP4sB+22Y=
+			X0Tx69WcxaXGDtJzeH97BWjFv1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Rfwzbvpo2zNPM6cGDFHA/pcC53FiLNB6xTokuVHWuM=
+			LEUDB1YhEHdhavSDbpQ+qVknQgK7/FeUVmcz7MutMfE=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -911,16 +1088,42 @@
 			e/joE7ObU4L5jO1+1JUxZxM/FUkgLPoVg6yex5UVEFk=
 			</data>
 		</dict>
+		<key>ca.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Z3+BQ3ns69eAUqsYM7PSTvRl88=
+			</data>
+			<key>hash2</key>
+			<data>
+			SB2bbJjxGF5lv6Ovsvsd87DgOt5Zrbea3en6oZZYUYc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>config.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sp9mSeVT2PICmirPvI8t6b0MUFs=
+			Wqg0sTKTRmkCJRcPud4nstFRppU=
 			</data>
 			<key>hash2</key>
 			<data>
-			chCdg/ow73iayHJ7gp8a5xG0ZMlqKMDuR6MEwlx+bY4=
+			GFt0m7GykTv+0EYkYSdJrOiFtu6I1UN4razPmJHy9F0=
 			</data>
+		</dict>
+		<key>de.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SIrgPYJ3MnIjxXpwoJTQl+2PB7U=
+			</data>
+			<key>hash2</key>
+			<data>
+			ylLBgNqtnoee+2bTgIwsmXcD7d/g+IhoX+PvPwSPWrs=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
@@ -932,6 +1135,71 @@
 			<data>
 			+hjCc21/4YUJYZkZPEbyNLpZ9vQ///+AMsrYVMSUBgw=
 			</data>
+		</dict>
+		<key>en.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9HW4hIN6wuwMkrWYeAWlLER7rnY=
+			</data>
+			<key>hash2</key>
+			<data>
+			z3yGsSqKN455id7uRQxp/I1vatsv7jAcOHGro9TlWv8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LfhkTllnSNW4sdjXTuJAk4F98dU=
+			</data>
+			<key>hash2</key>
+			<data>
+			6ZV+Slmn8GTbDhJUbVpbM7a4mtB0ADmzWVpsh0tya3o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TvnIz1/phnmLHl10uhgOP++M1rM=
+			</data>
+			<key>hash2</key>
+			<data>
+			M/keRQKdN1tgWaw/vf//JYEPVga/PMDs2rkNXUtjVKg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dUkbC8/BE4dZrUCNHLnNFyLlpho=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jk9x1bYqAwfGG0E438/d2Xfe0DQ+TH4LHK/mG2OoAcc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt.lproj/GMImagePicker.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2/OXww4TK63SFxiGefgrYql+rOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6aftbJWH0nWZdqwulpQ1a3SOe/CDApnZIzi61UnLiUk=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>www/assets/fonts/ionicons.eot</key>
 		<dict>
@@ -1219,6 +1487,17 @@
 			55odJ3Zq6gsryER4suN+Y81MUr5Gs3kpfwEa8dNcPz4=
 			</data>
 		</dict>
+		<key>www/assets/images/chat-wallpaper.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C+Y8hP1Gubp9E0TVfjOmeiCFE5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			NFDIQOm40x8s5995ohrZGi6VQZkppjZIwP+tQMyXw+4=
+			</data>
+		</dict>
 		<key>www/assets/images/logo-carleton.png</key>
 		<dict>
 			<key>hash</key>
@@ -1267,22 +1546,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xVymbqq55ycq8KhpV56ZRneewgM=
+			bbzvo8UVGXmg6jPnfT/rDbAFqAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zi+uLdBNZxU5uPF5Ik7G6lar2+Njceu3RPlBpK2tNV8=
+			ttAcDCMqEucSkWhya1GxJ+XpcyUP5P+cvZ2vWOwVBBc=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AgU074giGfEyUQRdKTuRFR3N40k=
+			WgaxPvgOsJ0R4QitNIOia/gzzSA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DpK0K/pkRdTAbtFMvHstwynLILrbtaLHeIl8EwWx4/o=
+			xhOt/0T3eP6BYPIZ58Araf09/IUocrSItEnvXysR97k=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>
@@ -1344,11 +1623,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ur+n/7qvgnfZKUf4Y5Q0mAVBCUo=
+			2n0odanZ5WHBFXjRKYasSnG1KgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kdbykzzjtm11H1YkE4nYxqeKFddDRJyLZRJDwGNqIsY=
+			6LbCyLlyu/zQC7E1yslpfl4wV9n9ChbJUXayzsGkHDs=
 			</data>
 		</dict>
 		<key>www/index.html</key>
@@ -1371,6 +1650,61 @@
 			<key>hash2</key>
 			<data>
 			bhy0OvcYM5NzmPBTU92oxj81eQtM3+z12l08DTKg4bs=
+			</data>
+		</dict>
+		<key>www/plugins/com.synconset.imagepicker/www/imagepicker.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zvqn3mut8bq2tRkzcicPKFg82pw=
+			</data>
+			<key>hash2</key>
+			<data>
+			bGNwLlxu7QFnpjbVFCnJk4gYh6uQ3uqGuxnT5X2TniM=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-camera/www/Camera.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SIYzAGOWUrafT4SXCVCSdpiOQaw=
+			</data>
+			<key>hash2</key>
+			<data>
+			43yZvVpsPrpv/4OSAwHa+b5gQvPQU8uga2cxdzeDnYw=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-camera/www/CameraConstants.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z6XuqatNGGOOieiBDp4Ow3ag+Lg=
+			</data>
+			<key>hash2</key>
+			<data>
+			9NkPvDx4+eufex5NyWqBN7A8jE4/24KJC9CGn3po6c0=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8aByrw3Dl008NLTxVyD3wrMkaGs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3b5999TNhiibEXH4nzvrSOg07DOKvXXrQFO4H9bt6d8=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BGPJLreG2O+OYfIg0g0vbA3c7FM=
+			</data>
+			<key>hash2</key>
+			<data>
+			+M+Og3e2du+I94HT47ZQ/sNHjeVhel4YuJl9Dy/bejo=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-console/www/console-via-logger.js</key>

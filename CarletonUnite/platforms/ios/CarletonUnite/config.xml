@@ -47,6 +47,12 @@
         <param name="ios-package" value="ParsePushPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="ImagePicker">
+        <param name="ios-package" value="SOSPicker" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
     <name>CarletonUnite</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
@@ -77,6 +83,7 @@
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="CameraUsesGeolocation" value="false" />
     <preference name="ParseAppId" value="carletonunite1286" />
     <preference name="ParseServerUrl" value="http://192.168.0.15:8020/carletonuniteserver" />
     <preference name="ParseGcmSenderId" value="294166891765" />

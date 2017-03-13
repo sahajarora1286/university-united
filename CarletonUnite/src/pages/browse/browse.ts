@@ -249,7 +249,7 @@ export class BrowsePage {
       console.log(message.get('text'));
       console.log(message.get("from").get("name"));
       console.log(message.get("from"));
-
+     
       me.events.publish("toast:event", {message: message.get("from").get("name") + 
       ": " + message.get("text"), timer: 5000, position: 'top'});
      
@@ -317,151 +317,9 @@ export class BrowsePage {
 
   
 
-  sendPush(){
-    console.log("Send Push clicked!");
-     var me = this;
-
-    var deviceTokens = [];
-    var query = new Parse.Query("DeviceToken");
-    query.equalTo("user", "FAXrCDeZjI");
-    return query.each(function(token){
-      if (token)
-      deviceTokens.push(token.get("token"));
-    },{
-      success: function(token){
-        
-      }, error: function(result, error){
-        console.log(error.message);
-      }
-    }).then(function(result){
-      var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmZGMzODkzYy0zZjdiLTRjY2QtOTJmNi05ZjAzOTQ0MDllOGIifQ.egmtxFrf_JN8ycvrUMUEZogYC3qm_rXyt_SylIIePww";
-    var url= "https://api.ionic.io/push/notifications";
-    // var headers = {
-    //   'Authorization': 'Bearer ' + token,
-    //   'Content-Type': 'application/json'
-    // }
-
-    let headers = new Headers({
-      'Authorization': 'Bearer ' + token,
-      'Content-Type': 'application/json'
-    });
   
-    let options = new RequestOptions({headers: headers});
-    this.http.post(url, {profile: 'testprofile', notification: {message: 'Congratulations push worked Sahaj!'},
-     tokens: deviceTokens}, options).map(res => res.json()).subscribe(data => {
-      console.log(data);
-        me.events.publish("toast:event", {message: data.data.success, timer: 5000, position: 'bottom'});
-    }, error =>{
-      console.log(error);
-      me.events.publish("toast:event", {message: error.message, timer: 5000, position: 'bottom'});
-    });
 
-    }, function(error){
-      console.log(error);
-    });
-
-    // var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmZGMzODkzYy0zZjdiLTRjY2QtOTJmNi05ZjAzOTQ0MDllOGIifQ.egmtxFrf_JN8ycvrUMUEZogYC3qm_rXyt_SylIIePww";
-    // var url= "https://api.ionic.io/push/notifications";
-    // // var headers = {
-    // //   'Authorization': 'Bearer ' + token,
-    // //   'Content-Type': 'application/json'
-    // // }
-
-    // let headers = new Headers({
-    //   'Authorization': 'Bearer ' + token,
-    //   'Content-Type': 'application/json'
-    // });
   
-    // let options = new RequestOptions({headers: headers});
-    // this.http.post(url, {profile: 'testprofile', notification: {message: 'This notification worked brother!'},
-    //  send_to_all: true}, options).map(res => res.json()).subscribe(data => {
-    //   console.log(data);
-    //     me.events.publish("toast:event", {message: data.data.success, timer: 5000, position: 'bottom'});
-    // }, error =>{
-    //   console.log(error);
-    //   me.events.publish("toast:event", {message: error.message, timer: 5000, position: 'bottom'});
-    // });
-
-   
-    
-          
-  }
-
-  // initPushNotification(){
-  //   if (!this.platform.is('cordova')) {
-  //     console.warn("Push notifications not initialized. Cordova is not available - Run in physical device");
-  //     return;
-  //   }
-
-  //   this.push.register().then((t: PushToken) => {
-  //     return this.push.saveToken(t);
-  //   }).then((t: PushToken) => {
-  //     console.log('Token saved:', t.token);
-  //   }); 
-
-  //   this.push.rx.notification()
-  //     .subscribe((msg) => {
-  //       alert(msg.title + ': ' + msg.text);
-  //   }, (err) =>{
-  //     console.log(err);
-  //   });
-  // }
-
-  // tempInitPushNotification(){
-  //   if (!this.platform.is('cordova')) {
-  //     console.warn("Push notifications not initialized. Cordova is not available - Run in physical device");
-  //     return;
-  //   } else {
-  //   var me = this;
-  //   this.push.register().then((t: PushToken) => {
-  //     return this.push.saveToken(t);
-  //   }).then((t: PushToken) => {
-  //     me.events.publish('toast:event', {message:"Trying to save token to parse: " + t.token, timer:5000, position: "bottom"});
-  //     var DeviceTokenParse = new Parse.Object.extend("DeviceToken");
-  //     var token = new DeviceTokenParse();
-  //     token.set("tokenId", t.id);
-  //     token.set("token", t.token);
-  //     token.set("type", t.type);
-  //     token.set("registered", t.registered);
-  //     token.set("saved", t.saved);
-  //     token.set("user", me.currentUser);
-
-  //     token.save({
-  //       success: function(result){
-
-            
-  //         me.alrtCtrl.create({
-  //           title: "Token created",
-  //           message: "Token saved to Parse",
-  //           buttons: ['Ok']
-  //         }).present();
-
-  //         console.log('Token saved to Parse:', result);
-  //         //me.sendPush();
-  //       }, error: function(result, error){
-  //         me.alrtCtrl.create({
-  //           title: "Token could not be created",
-  //           message: error.message,
-  //           buttons: ['Ok']
-  //         }).present();
-
-        
-  //       }
-  //     });
-      
-  //   }); 
-
-  //   me.push.rx.notification()
-  //           .subscribe((msg) => {
-  //             alert(msg.title + ': ' + msg.text);
-  //           }, (error)=>{
-  //             console.log(error);
-  //           });
-
-
-  //   }
-  // }
-
 
   addCourseToMyCourses(courseToAdd: Course) {
     //var course: Course = new Course();

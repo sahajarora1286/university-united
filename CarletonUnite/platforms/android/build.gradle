@@ -89,6 +89,8 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-firebase/carletonunite-build.gradle"
+apply from: "com.synconset.imagepicker/carletonunite-ignorelinterrors.gradle"
+apply from: "com.synconset.imagepicker/carletonunite-androidtarget.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -257,6 +259,8 @@ dependencies {
     compile "com.google.firebase:firebase-messaging:+"
     compile "com.google.firebase:firebase-crash:+"
     compile "com.google.firebase:firebase-config:+"
+    compile "com.android.support:appcompat-v7:23+"
+    compile "com.android.support:support-v4:24.1.1+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

@@ -36,10 +36,7 @@ export class MyApp {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      StatusBar.styleDefault();
-      Splashscreen.hide();
-
-     Parse.initialize('carletonunite1286');
+      Parse.initialize('carletonunite1286');
     
     Parse.serverURL = 'http://192.168.0.15:8020/carletonuniteserver';
     events.subscribe('toast:event', (data) => {
@@ -56,6 +53,11 @@ export class MyApp {
        this.rootPage = LoginPage;
     }
     });
+      
+      StatusBar.styleDefault();
+      Splashscreen.hide();
+
+     
   }
 
   

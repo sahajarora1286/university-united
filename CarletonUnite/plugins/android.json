@@ -33,6 +33,12 @@
         },
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ionicframework.carletonunite"
         }
     },
     "dependent_plugins": {

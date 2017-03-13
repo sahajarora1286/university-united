@@ -18,9 +18,9 @@ import 'rxjs/add/operator/map'
 export class ChatPage {
 
   @ViewChild(Content) content: Content;
-
+  imgSrc;
   messages: any;
-  
+  myColor;
   text: string;
   currentUser; toUser; query;
   chat;
@@ -35,10 +35,38 @@ export class ChatPage {
     
     me.currentUser = Parse.User.current();
     me.toUser = navParams.get("user");
-
+    me.imgSrc = me.toUser.get("profilePic");
     //me.messages = [];
 
-    
+    me.messages = [];
+    this.chatQuery = new Parse.Query("Message");
+    this.chatQuery.include("from");
+    this.chatQuery.include("to");
+    this.chatQuery.equalTo('to', me.currentUser);
+   // console.log("To user is");
+   // console.log(me.toUser); 
+    this.subscription = this.chatQuery.subscribe(this.chatQuery);
+    this.subscription.on('create', (message) => {
+      console.log("Message received.");
+      console.log(message.get("from"));
+      console.log("Message to: ");
+      console.log(message.get("to"));
+     if (message.get("from").id == me.toUser.id){
+      //  console.log("Message received.");
+      // console.log(message.get("from"));
+      // console.log(me.currentUser);
+      console.log("About to save message to messages list.");
+      me.messages.push(message);
+      let currentView = me.navCtrl.getActive();
+      if (currentView.component == ChatPage) me.scrollList(me);
+      //console.log(message.get("from"));
+     // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
+      console.log(me.messages);
+     }
+
+    });
+
+    me.checkForChat();
 
     
   }
@@ -104,41 +132,42 @@ export class ChatPage {
     console.log('ionViewDidLoad ChatPage');
   }
 
-  // ionViewDidEnter(){
-  //   this.autoScroll();
-  // }
-
   ionViewDidEnter(){
-    var me = this;
-    me.messages = [];
-    this.chatQuery = new Parse.Query("Message");
-    this.chatQuery.include("from");
-    this.chatQuery.include("to");
-    this.chatQuery.equalTo('to', me.currentUser);
-   // console.log("To user is");
-   // console.log(me.toUser); 
-    this.subscription = this.chatQuery.subscribe(this.chatQuery);
-    this.subscription.on('create', (message) => {
-      console.log("Message received.");
-      console.log(message.get("from"));
-      console.log("Message to: ");
-      console.log(message.get("to"));
-     if (message.get("from").id == me.toUser.id){
-      //  console.log("Message received.");
-      // console.log(message.get("from"));
-      // console.log(me.currentUser);
-      console.log("About to save message to messages list.");
-      me.messages.push(message);
-      me.scrollList(me);
-      //console.log(message.get("from"));
-     // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
-      console.log(me.messages);
-     }
-
-    });
-
-    me.checkForChat();
+    //this.autoScroll();
+    //this.getMessages();
   }
+
+  // ionViewDidEnter(){
+  //   var me = this;
+  //   me.messages = [];
+  //   this.chatQuery = new Parse.Query("Message");
+  //   this.chatQuery.include("from");
+  //   this.chatQuery.include("to");
+  //   this.chatQuery.equalTo('to', me.currentUser);
+  //  // console.log("To user is");
+  //  // console.log(me.toUser); 
+  //   this.subscription = this.chatQuery.subscribe(this.chatQuery);
+  //   this.subscription.on('create', (message) => {
+  //     console.log("Message received.");
+  //     console.log(message.get("from"));
+  //     console.log("Message to: ");
+  //     console.log(message.get("to"));
+  //    if (message.get("from").id == me.toUser.id){
+  //     //  console.log("Message received.");
+  //     // console.log(message.get("from"));
+  //     // console.log(me.currentUser);
+  //     console.log("About to save message to messages list.");
+  //     me.messages.push(message);
+  //     me.scrollList(me);
+  //     //console.log(message.get("from"));
+  //    // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
+  //     console.log(me.messages);
+  //    }
+
+  //   });
+
+  //   me.checkForChat();
+  // }
 
   scrollList(me){
     //me.content.scrollToBotom();
@@ -191,28 +220,28 @@ export class ChatPage {
         console.log(error.message);
       }
     });
-    
-    me.scrollList(me);
+    //
+    //me.scrollList(me);
     
 
   }
 
-  sendMessage(){
+  sendMessage(tfText){
     var me = this;
     console.log("Send button clicked");
     if (!me.text) return;
-    
+    me.text = "";
     var MessageParse = Parse.Object.extend("Message");
           var message = new MessageParse();
           message.set("from", me.currentUser);
           message.set("to", me.toUser);
-          message.set("text", me.text);
+          message.set("text", tfText);
           message.set("chat", me.chat);
           // me.text = "";
           // me.messages.push(message);
           message.save({
             success: function(result){
-              me.text = "";
+              
               me.messages.push(message);
               me.scrollList(me);
               me.chat.fetch({
