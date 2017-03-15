@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PSzKk/uQYClr9Wq9hHLT9FLmFV0=
+		f4KbVv+02O2EzHw4h4tlwBmpLEM=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		+jZZvQ3BJgWpABVXjTTe+ZZ5Ro0=
+		pBPdmiizU+lSJ+Cfhwpa5BiYaC4=
 		</data>
 		<key>GMEmptyFolder@1x.png</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		LCLYvc/vhDwPrC3YO0zkB7krmWk=
+		93doKjoIkOWVBKMx5gNMCalayLA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -207,7 +207,7 @@
 		</dict>
 		<key>config.xml</key>
 		<data>
-		x1QdieJv0QzCRHCltk/eqTF86yU=
+		0PbgvpWBVgThNHPHg4BL026wjUs=
 		</data>
 		<key>de.lproj/GMImagePicker.strings</key>
 		<dict>
@@ -389,7 +389,7 @@
 		</data>
 		<key>www/build/main.css</key>
 		<data>
-		A0+oAaqF5VXXZ7vQHJo4+ILxfWY=
+		jEnLLUK+s6BqvgeVN431byg4G3A=
 		</data>
 		<key>www/build/main.css.map</key>
 		<data>
@@ -397,11 +397,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		1/fV0c7IJV1hPMdgW5hIZQGysDM=
+		CAHjFfUcWWlcPnY+HulFSPMOOtQ=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		LHF2NvBrZ9Z261T191TgGE2zPRU=
+		0FOSGwIzZX7Gj2QzsNtcIqp6zVM=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -814,11 +814,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PSzKk/uQYClr9Wq9hHLT9FLmFV0=
+			f4KbVv+02O2EzHw4h4tlwBmpLEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aAb/5f0EdMyncFxBiloCTgsRWVx3fq86WPofofankok=
+			v5wVUA0X2SFXLidA9pp1lDP7rJLebwcGl9dZedjqqVU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -836,11 +836,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+jZZvQ3BJgWpABVXjTTe+ZZ5Ro0=
+			pBPdmiizU+lSJ+Cfhwpa5BiYaC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wtXR22O69pzuN1FwuOlslISYKoDlEU8qJdNdF55QKu4=
+			ryOIVkR1GKJk0NM1VZ3W6DVKzI324MMB15y5AdJHT5M=
 			</data>
 		</dict>
 		<key>GMEmptyFolder@1x.png</key>
@@ -1078,11 +1078,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LCLYvc/vhDwPrC3YO0zkB7krmWk=
+			93doKjoIkOWVBKMx5gNMCalayLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			D4Nl9ijFs6pRoUVKHDzPymP7SPkAGHzzRVZVxCcxK+Y=
+			ULIaEg8+rWnsMckWXxWJuVa779/MLm7YkD2K68rpc6Y=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1113,11 +1113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x1QdieJv0QzCRHCltk/eqTF86yU=
+			0PbgvpWBVgThNHPHg4BL026wjUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			hrsajaU9AbIrxkfWUtYeGiyRpuDFPa4bQjOTteuHvKk=
+			J3MYM2qOAoEry8/z0q+q27uYVgJiucQ1c9YqcIfQfHo=
 			</data>
 		</dict>
 		<key>de.lproj/GMImagePicker.strings</key>
@@ -1543,11 +1543,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A0+oAaqF5VXXZ7vQHJo4+ILxfWY=
+			jEnLLUK+s6BqvgeVN431byg4G3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			G5IzUOjiyaLFcVJbnkmBpGfcsw0jBYCO3cEbNdj372M=
+			GpaEADFlrfIswfX3lppc1XxriIw/YzVcSGY8hQUR11I=
 			</data>
 		</dict>
 		<key>www/build/main.css.map</key>
@@ -1565,22 +1565,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1/fV0c7IJV1hPMdgW5hIZQGysDM=
+			CAHjFfUcWWlcPnY+HulFSPMOOtQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/pVEiM2/6+Te5RImmfXnDsFdSHXWzsMvxufSPPPQifM=
+			va7AgIhURCi7T4xraGlOaW4hI5AFwRcT7e3vVpkgHT4=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LHF2NvBrZ9Z261T191TgGE2zPRU=
+			0FOSGwIzZX7Gj2QzsNtcIqp6zVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6B0hhce5VcqykuJ/egTop5I91h7ZJlku321/Y9s92do=
+			qzsp835+Bp9AX6oDyF9Qct/SpJxXzClCALg7/hhEq+4=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>

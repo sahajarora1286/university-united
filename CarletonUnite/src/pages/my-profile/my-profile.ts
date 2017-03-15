@@ -25,6 +25,7 @@ export class MyProfilePage {
           if (this.user){
             //found current user
             this.imgSrc = this.user.get("profilePic");
+            if (this.imgSrc == null) this.imgSrc="assets/images/person.png";
           } else {
             this.navCtrl.setRoot(LoginPage);
           }

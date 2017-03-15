@@ -12,11 +12,7 @@
         </ion-segment-button>
         
       </ion-segment>
-     <ion-buttons end>
-      <button style="font-size: 14px; text-align:right;" ion-button clear  color="light" (click)="logOut()">
-        Log Out
-      </button>
-    </ion-buttons>
+     
   </ion-navbar>
 <!--<ion-icon name="more"></ion-icon>-->
 
@@ -62,7 +58,11 @@
     <ion-item  *ngFor="let user of users" > 
         <ion-item no-lines (click)="goToUser(user)">
         <ion-avatar item-left>
-          <img src="assets/images/person.png" />
+          <img *ngIf="user?.get('profilePic') != null" 
+          src="{{user?.get('profilePic')}}" />
+          <img *ngIf="user?.get('profilePic') == null" style="text-align: center" 
+          src="assets/images/person.png" />
+          
         </ion-avatar>
         <h2> {{user?.get('name')}} </h2>
         <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{user?.get('major')}} </h3>

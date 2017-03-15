@@ -38,14 +38,18 @@
 <ion-list  >
       <ion-item *ngFor="let topic of topics">
         <ion-avatar style="margin:auto; text-align: center" item-left style="width:15%" (click) = "viewProfile(topic)">
-          <img style="text-align: center" item-left src="assets/images/person.png" />
-          <label style="text-align: center; font-size: 13px" >{{topic?.get('poster')?.get('name')}}</label>
+          <img item-left *ngIf="topic.get('poster')?.get('profilePic') != null" 
+          src="{{topic.get('poster')?.get('profilePic')}}" />
+          <img item-left *ngIf="topic.get('poster')?.get('profilePic') == null" style="text-align: center" 
+          src="assets/images/person.png" />
+          
+          <label style="text-align: center; font-size: 11px" >{{topic?.get('poster')?.get('name')}}</label>
         </ion-avatar>
         <div style="width:85%">
         <h2 style="color: red">{{topic?.get('name')}}</h2>
         <h3 style="word-wrap:break-word; overflow:visible; white-space:normal"> {{topic?.get('description')}} </h3>
         </div>
-      </ion-item>
+      </ion-item> 
 
 </ion-list>
 </ion-content>

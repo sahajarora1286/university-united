@@ -14,12 +14,15 @@ import {ChatPage} from '../chat/chat';
 })
 export class ProfilePage {
   user;
+  imgSrc;
   constructor(public navCtrl: NavController,
               public alrtCtrl: AlertController,
               public navParams: NavParams,
               public events: Events) {
 
                   this.user = navParams.get("user");
+                  this.imgSrc = this.user.get("profilePic");
+                  if (this.imgSrc == null) this.imgSrc="assets/images/person.png";
                  // var parseUser = Parse.User.find(user);
                   console.log("User is " + this.user.get("name"));
   }

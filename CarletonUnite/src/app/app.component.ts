@@ -38,7 +38,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       Parse.initialize('carletonunite1286');
     
-    Parse.serverURL = 'http://192.168.0.15:8020/carletonuniteserver';
+    Parse.serverURL = 'http://173.35.92.227:8020/carletonuniteserver';
     events.subscribe('toast:event', (data) => {
       me.presentToast(data);
     });

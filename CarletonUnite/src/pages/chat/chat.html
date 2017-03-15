@@ -7,8 +7,9 @@
     <ion-item style="background-color: rgba(255, 255, 255, 0.0)" no-lines> 
           
      <ion-avatar  item-right>
-          <img style="width: 100%; height: 100%; max-height: 50px; max-width: 50px" [src]="imgSrc" />
+          <img id="profilePic" style="width: 100%; height: 100%; max-height: 50px; max-width: 50px" [src]="imgSrc" />
         </ion-avatar>
+
     </ion-item>
     </ion-item>
   </ion-navbar>
@@ -20,13 +21,10 @@
 
 <ion-content style="background-image: url(assets/images/chatWallpaper.png); background-size: 100%" >
 <div class ="content-scroll" id="chat-autoscroll" style="height: 100%; overflow: scroll">
-
+  <!--<ion-spinner align="center" style="text-align: center" name="bubbles"  *ngIf="!loaded">
+    </ion-spinner>-->
   <ion-list  no-lines>
-
-    <!--<ion-item *ngFor="let message of messages">
-      <h2>{{message?.get('from').get('name')}}</h2>
-      <label>{{message?.get('text')}}</label>
-    </ion-item>-->
+    
 
     <ion-item style="background-color: rgba(255, 255, 255, 0.0)" *ngFor="let message of messages">
       

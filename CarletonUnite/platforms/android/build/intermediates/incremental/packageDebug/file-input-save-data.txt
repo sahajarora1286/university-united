@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 12 23:40:35 EDT 2017
+#Mon Mar 13 00:19:41 EDT 2017
 20.base=/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/resources-debug.ap_
 143.base=/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/resources-debug.ap_
 493.base=/Users/sahajarora/Desktop/ionicProjects/CarletonUnite/platforms/android/build/intermediates/res/resources-debug.ap_

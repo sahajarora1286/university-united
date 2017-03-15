@@ -12,8 +12,11 @@ $font-path: "../assets/fonts";
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+$loading-ios-background: transparent;
 
-
+$loading-md-background: transparent;
+$loading-md-box-shadow-color: transparent;
+$loading-md-box-shadow: 0 0px 0px $loading-md-box-shadow-color;
 
 // Named Color Variables
 // --------------------------------------------------

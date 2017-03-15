@@ -28,22 +28,32 @@ export class ChatPage {
   chatQuery;
   subscription;
   loading; 
+  // loaded: boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public events: Events, public http: Http, 
               public loadingCtrl: LoadingController) {
                
     var me = this;
-
-    me.loading = this.loadingCtrl.create({
-      content: 'Loading Messages...'
-    });
+    // me.loaded = false;
+    me.loading = this.loadingCtrl.create({  
+      spinner: 'hide',
+      content: '<div class="circle"></div><div class="circle1"></div>',
+      cssClass: 'customLoader'
+    }); 
 
     me.loading.present();
     
     me.currentUser = Parse.User.current();
     me.toUser = navParams.get("user");
-    me.imgSrc = me.toUser.get("profilePic");
+    me.imgSrc = me.toUser.get("profilePic"); 
+
+    if (me.imgSrc == null) me.imgSrc="assets/images/person.png";
+  
+
+    var theChat = navParams.get("chat");
+
+
     //me.messages = [];
 
     me.messages = [];
@@ -55,10 +65,9 @@ export class ChatPage {
    // console.log(me.toUser); 
     this.subscription = this.chatQuery.subscribe(this.chatQuery);
     this.subscription.on('create', (message) => {
-      console.log("Message received.");
+      console.log("Message received."); 
       console.log(message.get("from"));
-      console.log("Message to: ");
-      console.log(message.get("to"));
+      
      if (message.get("from").id == me.toUser.id){
       //  console.log("Message received.");
       // console.log(message.get("from"));
@@ -69,13 +78,17 @@ export class ChatPage {
       if (currentView.component == ChatPage) me.scrollList(me);
       //console.log(message.get("from"));
      // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
-      console.log(me.messages);
+      //console.log(me.messages);
      }
 
     });
 
-    me.checkForChat();
+    if (theChat != null){
+      me.chat = theChat;
+      me.getMessages();
+    } else me.checkForChat(); 
 
+    // me.checkForChat(); 
     
   }
 
@@ -125,6 +138,7 @@ export class ChatPage {
           me.createNewChat(me);
         } else {
           me.getMessages();
+          //me.getMessagesArr();
           console.log("chat found!")
           console.log(me.chat);
           
@@ -136,47 +150,22 @@ export class ChatPage {
   
   }
 
+  getMessagesArr(){
+    var me = this;
+  }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChatPage');
   }
 
-  ionViewDidEnter(){
-    //this.autoScroll();
-    //this.getMessages();
+  ionViewWillLeave(){
+    this.subscription.unsubscribe();
+    var profilePic;
+    profilePic = document.getElementById("profilePic");
+    profilePic.style.visibility = "hidden";
   }
 
-  // ionViewDidEnter(){
-  //   var me = this;
-  //   me.messages = [];
-  //   this.chatQuery = new Parse.Query("Message");
-  //   this.chatQuery.include("from");
-  //   this.chatQuery.include("to");
-  //   this.chatQuery.equalTo('to', me.currentUser);
-  //  // console.log("To user is");
-  //  // console.log(me.toUser); 
-  //   this.subscription = this.chatQuery.subscribe(this.chatQuery);
-  //   this.subscription.on('create', (message) => {
-  //     console.log("Message received.");
-  //     console.log(message.get("from"));
-  //     console.log("Message to: ");
-  //     console.log(message.get("to"));
-  //    if (message.get("from").id == me.toUser.id){
-  //     //  console.log("Message received.");
-  //     // console.log(message.get("from"));
-  //     // console.log(me.currentUser);
-  //     console.log("About to save message to messages list.");
-  //     me.messages.push(message);
-  //     me.scrollList(me);
-  //     //console.log(message.get("from"));
-  //    // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
-  //     console.log(me.messages);
-  //    }
-
-  //   });
-
-  //   me.checkForChat();
-  // }
-
+ 
   scrollList(me){
     //me.content.scrollToBotom();
     me.autoScroll();
@@ -202,33 +191,52 @@ export class ChatPage {
 
   getMessages(){
     var me = this;
-    
-
-    me.chat.fetch({
-      success: function(result){
-        //me.messages = me.chat.get("messages");
-        me.chat = result;
+      console.log("Getting messages");
         var relation = me.chat.relation("messages");
         var relQuery = relation.query();
-        relQuery.include("from");
-        relQuery.include("to");
-        relQuery.include("text");
-        relQuery.include("chat");
+        relQuery.limit(1000);
+        //relQuery.include("from");
+        //relQuery.include("to");
+        //relQuery.include("text");
+        //relQuery.include("chat");
         relQuery.ascending("createdAt");
         relQuery.find({
       success: function(results){
             me.messages = results;
             me.scrollList(me);
-            me.loading.dismissAll();
+            // me.loaded = true;
+            me.loading.dismiss().catch(() => {});;
             //console.log(results);
       }, error: function(results, error){
             console.log(error.message);
       }
     });
-      }, error: function(result, error){
-        console.log(error.message);
-      }
-    });
+
+    // me.chat.fetch({
+    //   success: function(result){
+    //     //me.messages = me.chat.get("messages");
+    //     me.chat = result;
+    //     var relation = me.chat.relation("messages");
+    //     var relQuery = relation.query();
+    //     //relQuery.include("from");
+    //     //relQuery.include("to");
+    //     //relQuery.include("text");
+    //     //relQuery.include("chat");
+    //     relQuery.ascending("createdAt");
+    //     relQuery.find({
+    //   success: function(results){
+    //         me.messages = results;
+    //         me.scrollList(me);
+    //         me.loading.dismissAll();
+    //         //console.log(results);
+    //   }, error: function(results, error){
+    //         console.log(error.message);
+    //   }
+    // });
+    //   }, error: function(result, error){
+    //     console.log(error.message);
+    //   }
+    // });
     //
     //me.scrollList(me);
     
