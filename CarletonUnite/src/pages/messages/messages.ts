@@ -91,6 +91,9 @@ export class MessagesPage {
 
     query.find({
       success: function(results){
+        if (results.length>0) me.noMessages = "";
+        else me.noMessages = "You have no messages.";
+        
         me.fetchedChats = results;
         if (refresher!=null){
             refresher.complete();

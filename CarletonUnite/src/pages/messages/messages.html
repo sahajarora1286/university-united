@@ -15,7 +15,7 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
   <ion-refresher (ionRefresh)="getChats($event)">
     <ion-refresher-content>
      
@@ -25,9 +25,9 @@
   <ion-list >
 
     <ion-item no-lines *ngFor="let chat of fetchedChats">
-      <ion-item *ngIf="chat.get('lastMessage')?.get('from')?.id != currentUser.id">
-        <ion-avatar style="margin-left: 5px; text-align: center" 
-        item-left style="width:10%" >
+      <ion-item no-lines *ngIf="chat.get('lastMessage')?.get('from')?.id != currentUser.id">
+        <ion-avatar style="margin: auto; text-align: center" 
+        item-left style="width:15%" >
           <img *ngIf="chat.get('lastMessage')?.get('from')?.get('profilePic') != null" style="text-align: center" 
           item-left src="{{chat.get('lastMessage')?.get('from')?.get('profilePic')}}" />
           <img *ngIf="chat.get('lastMessage')?.get('from')?.get('profilePic') == null" style="text-align: center" 
