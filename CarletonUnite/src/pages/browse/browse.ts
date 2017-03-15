@@ -235,8 +235,8 @@ export class BrowsePage {
     this.query = new Parse.Query("Message");
     //this.query.descending("createdAt");
     this.query.include("from");
-    //this.query.include("chat");
-    this.query.include("to");
+    this.query.include("chat");
+    //this.query.include("to");
     console.log("Searching for " + me.currentUser.get("name"));
     this.query.equalTo('to', me.currentUser);
 
@@ -250,8 +250,8 @@ export class BrowsePage {
       console.log(message.get('text'));
       console.log(message.get("from").get("name"));
       console.log(message.get("from"));
-      // var chat = message.get('chat');
-      // chat.set("lastMessage", message);
+      var chat = message.get('chat');
+      chat.set("lastMessage", message);
       me.events.publish("toast:event", {message: message.get("from").get("name") + 
       ": " + message.get("text"), timer: 5000, position: 'top'});
      

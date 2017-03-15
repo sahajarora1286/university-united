@@ -255,30 +255,33 @@ export class ChatPage {
           message.set("text", tfText);
           message.set("chat", me.chat);
           // me.text = "";
-          // me.messages.push(message);
+          me.messages.push(message);
           message.save({
             success: function(result){
-              
-              me.messages.push(message);
               me.scrollList(me);
+              
+              // me.messages.push(message);
+              // me.scrollList(me);
               me.chat.fetch({
                 success: function(result){
-                  console.log("chat is ");
-                  console.log(me.chat);
-                  console.log("about to make relation");
+                  // console.log("chat is ");
+                  // console.log(me.chat);
+                  // console.log("about to make relation");
                   var relation = me.chat.relation("messages");
-                   console.log("about toadd message to relation");
-                   console.log("message is");
-                   console.log(message);
+                  //  console.log("about toadd message to relation");
+                  //  console.log("message is");
+                  //  console.log(message);
                   relation.add(message);
-                  console.log(relation);
-                  console.log("message added. check relation");
+                  // console.log(relation);
+                  // console.log("message added. check relation");
+                  me.chat.set("lastMessage", message);
+            
                   me.chat.save({
                   success: function(result){
                     me.sendPush(message, me);
                     //me.scrollList(me);
-                     console.log("Message added to chat");
-                      console.log(result);
+                    //  console.log("Message added to chat");
+                    //   console.log(result);
                     }, error: function(result, error){
                       console.log(error);
                       console.log(error.message);

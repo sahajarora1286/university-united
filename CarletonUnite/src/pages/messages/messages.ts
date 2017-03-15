@@ -22,6 +22,8 @@ export class MessagesPage {
   subscription;
   loading;
   chats;
+  fetchedChats;
+  
 
   constructor(public navCtrl: NavController, public navParams: NavParams, 
   public events: Events, public loadingCtrl: LoadingController) {
@@ -43,16 +45,26 @@ export class MessagesPage {
 
   }
 
-  checkChats(from){
-    for (var i = 0; i<this.chats.length; i++){
-      if (this.chats[i].from.id == from.id){
-        var tempChat = this.chats[i];
-        this.chats.splice(i, 1);
+  checkChats(chat){
+    for (var i = 0; i<this.fetchedChats.length; i++){
+      if (this.fetchedChats[i].id == chat.id){
+        var tempChat = this.fetchedChats[i];
+        this.fetchedChats.splice(i, 1);
         return tempChat;
       }
     }
 
     return null;
+
+    // for (var i = 0; i<this.chats.length; i++){
+    //   if (this.chats[i].from.id == from.id){
+    //     var tempChat = this.chats[i];
+    //     this.chats.splice(i, 1);
+    //     return tempChat;
+    //   }
+    // }
+
+    // return null;
   }
 
   ionViewDidLoad() {
@@ -71,64 +83,83 @@ export class MessagesPage {
   getChats(refresher){
     var messages = [];
     var me = this;
+
     var query = new Parse.Query("Chat");
-    //query.descending("createdAt");
-   
+    query.descending("updatedAt");
+    query.include("lastMessage");
     query.equalTo("users", me.currentUser);
 
-    return query.each(function(chat){
-      var relation = chat.relation("messages");
-      var relQuery = relation.query();
-      relQuery.include("to");
-      relQuery.include("from");
-      relQuery.descending("createdAt");
-      return relQuery.first({
-        success: function(result){
-          //console.log("last message is");
-          //console.log(result)
-
-          if (result){
-            var from;
-            var lastText;
-            if (result.get("from").id == me.currentUser.id) {
-              from = result.get("to"); 
-              lastText = "You: " + result.get("text");
-            }
-            else {
-              from = result.get("from");
-              lastText = result.get("text");
-            } 
-          var newChat = {
-            chat: chat,
-            from: from,
-            lastText: lastText
-          }
-          messages.push(newChat);
-          }
-
-        }, error: function(error){
-          console.log(error);
-        }
-      });
-    }, {
-      success: function(result){
-        
-      }, error: function(result, error){
-        console.log(error);
-      }
-    }).then(function(result){
-      if (me.chats.length == 0) me.noMessages = "You have no messages.";
-      else me.noMessages = "";
-      me.chats = messages;
-      //console.log(me.chats);
-      if (refresher!=null){
+    query.find({
+      success: function(results){
+        me.fetchedChats = results;
+        if (refresher!=null){
             refresher.complete();
         }
 
         me.loading.dismiss().catch(() => {});
-    }, function(error){
-      console.log(error);
+      }, error: function(result, error){
+        console.log(error.message);
+      }
     });
+
+    // var query = new Parse.Query("Chat");
+    // //query.descending("createdAt");
+   
+    // query.equalTo("users", me.currentUser);
+
+    // return query.each(function(chat){
+    //   var relation = chat.relation("messages");
+    //   var relQuery = relation.query();
+    //   relQuery.include("to");
+    //   relQuery.include("from");
+    //   relQuery.descending("createdAt");
+    //   return relQuery.first({
+    //     success: function(result){
+    //       //console.log("last message is");
+    //       //console.log(result)
+
+    //       if (result){
+    //         var from;
+    //         var lastText;
+    //         if (result.get("from").id == me.currentUser.id) {
+    //           from = result.get("to"); 
+    //           lastText = "You: " + result.get("text");
+    //         }
+    //         else {
+    //           from = result.get("from");
+    //           lastText = result.get("text");
+    //         } 
+    //       var newChat = {
+    //         chat: chat,
+    //         from: from,
+    //         lastText: lastText
+    //       }
+    //       messages.push(newChat);
+    //       }
+
+    //     }, error: function(error){
+    //       console.log(error);
+    //     }
+    //   });
+    // }, {
+    //   success: function(result){
+        
+    //   }, error: function(result, error){
+    //     console.log(error);
+    //   }
+    // }).then(function(result){
+    //   if (me.chats.length == 0) me.noMessages = "You have no messages.";
+    //   else me.noMessages = "";
+    //   me.chats = messages;
+    //   //console.log(me.chats);
+    //   if (refresher!=null){
+    //         refresher.complete();
+    //     }
+
+    //     me.loading.dismiss().catch(() => {});
+    // }, function(error){
+    //   console.log(error);
+    // });
   } 
 
   getMessages(refresher){
@@ -181,28 +212,32 @@ export class MessagesPage {
       me.noMessages = "";
       //console.log(message.get('text'));
      // me.events.publish("toast:event", {message: "Message received: " + message.get("text"), timer: 5000, position: 'top'});
-     // 
-     var from;
-     var toUser;
-      if (message.get("from").id == me.currentUser.id){
-        from = message.get("to");
-      }else {
-        from = message.get("from");
-      }
-      var chat = this.checkChats(from);
-      if (chat == null){
-        var newChat = {
-          chat: message.get("chat"),
-          from: from,
-          lastText: message.get("text"),
+     //
+
+     var containedChat = this.checkChats(message.get('chat')); 
+     me.fetchedChats.unshift(message.get('chat'));
+
+    //  var from;
+    //  var toUser;
+    //   if (message.get("from").id == me.currentUser.id){
+    //     from = message.get("to");
+    //   }else {
+    //     from = message.get("from");
+    //   }
+    //   var chat = this.checkChats(from);
+    //   if (chat == null){
+    //     var newChat = {
+    //       chat: message.get("chat"),
+    //       from: from,
+    //       lastText: message.get("text"),
           
-        }
+    //     }
        
-        me.chats.unshift(newChat);
-      } else {
-        chat.lastText = message.get("text");
-        me.chats.unshift(chat);
-      }
+    //     me.chats.unshift(newChat);
+    //   } else {
+    //     chat.lastText = message.get("text");
+    //     me.chats.unshift(chat);
+    //   }
 
     });
 

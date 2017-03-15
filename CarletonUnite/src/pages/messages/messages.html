@@ -24,19 +24,38 @@
   <h3 style="text-align: center; color:lightgrey">{{noMessages}}</h3>
   <ion-list >
 
-    <ion-item *ngFor="let chat of chats">
-        <ion-avatar style="margin:auto; text-align: center" 
-        item-left style="width:15%" >
-          <img *ngIf="chat.from?.get('profilePic') != null" style="text-align: center" 
-          item-left src="{{chat.from?.get('profilePic')}}" />
-          <img *ngIf="chat.from?.get('profilePic') == null" style="text-align: center" 
+    <ion-item no-lines *ngFor="let chat of fetchedChats">
+      <ion-item *ngIf="chat.get('lastMessage')?.get('from')?.id != currentUser.id">
+        <ion-avatar style="margin-left: 5px; text-align: center" 
+        item-left style="width:10%" >
+          <img *ngIf="chat.get('lastMessage')?.get('from')?.get('profilePic') != null" style="text-align: center" 
+          item-left src="{{chat.get('lastMessage')?.get('from')?.get('profilePic')}}" />
+          <img *ngIf="chat.get('lastMessage')?.get('from')?.get('profilePic') == null" style="text-align: center" 
           item-left src="assets/images/person.png" />
         </ion-avatar>
-        <div style="width:85%" (click)="goToChat(chat.from)">
-        <h2 style="color: red">{{chat.from?.get('name')}}</h2>
+        <div style="width:85%" (click)="goToChat(chat.get('lastMessage')?.get('from'))">
+        <h2 style="color: red">{{chat.get('lastMessage')?.get('from')?.get('name')}}</h2>
+       
         <h3 style="word-wrap:break-word; 
-        overflow:visible; white-space:normal"> {{chat.lastText}} </h3>
-        </div>
+        overflow:visible; white-space:normal"> {{chat.get('lastMessage')?.get("text")}} </h3>
+      </div>
+      </ion-item>
+      <ion-item no-lines *ngIf="chat.get('lastMessage')?.get('from')?.id == currentUser.id">
+        <ion-avatar style="margin:auto; text-align: center" 
+        item-left style="width:15%" >
+          <img *ngIf="chat.get('lastMessage')?.get('to')?.get('profilePic') != null" style="text-align: center" 
+          item-left src="{{chat.get('lastMessage')?.get('to')?.get('profilePic')}}" />
+          <img *ngIf="chat.get('lastMessage')?.get('to')?.get('profilePic') == null" style="text-align: center" 
+          item-left src="assets/images/person.png" />
+        </ion-avatar>
+        <div style="width:85%" (click)="goToChat(chat.get('lastMessage')?.get('to'))">
+        <h2 style="color: red">{{chat.get('lastMessage')?.get('to')?.get('name')}}</h2>
+       
+        <h3 style="word-wrap:break-word; 
+        overflow:visible; white-space:normal">You: {{chat.get('lastMessage')?.get("text")}} </h3>
+      </div>
+      </ion-item>
+        
       </ion-item>
 
   </ion-list>
